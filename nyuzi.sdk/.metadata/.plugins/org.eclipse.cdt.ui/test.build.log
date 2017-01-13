@@ -1,0 +1,29 @@
+14:39:51 **** Auto Build of configuration Debug for project test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:393:5: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+     sleep(10);
+     ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:72:12: warning: 'InterruptSystemSetup' declared 'static' but never defined [-Wunused-function]
+ static int InterruptSystemSetup(XScuGic *XScuGicInstancePtr);
+            ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size test.elf  |tee "test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  67380	   3096	  22668	  93144	  16bd8	test.elf
+'Finished building: test.elf.size'
+' '
+
+14:39:51 Build Finished (took 534ms)
+

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2015.4 (64-bit)                     -->
+<!--                                                              -->
+<!-- Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.        -->
+
+<hwsession version="1" minor="1">
+  <device name="xc7z045_1" gui_info="dashboard1=hw_ila_1[xc7z045_1/hw_ila_1/Capture Setup=ILA_CAPTURE_1;xc7z045_1/hw_ila_1/Waveform=ILA_WAVE_1;xc7z045_1/hw_ila_1/Status=ILA_STATUS_1;xc7z045_1/hw_ila_1/Settings=ILA_SETTINGS_1;xc7z045_1/hw_ila_1/Trigger Setup=ILA_TRIGGER_1;]"/>
+  <ObjectList object_type="hw_device" gui_info="">
+    <Object name="xc7z045_1" gui_info="">
+      <Properties Property="PROBES.FILE" value="$_project_name_.runs/impl_1/debug_nets.ltx"/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/design_1_wrapper.bit"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_ila" gui_info="">
+    <Object name="u_ila_0" gui_info="">
+      <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
+      <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
+    </Object>
+    <Object name="u_ila_0_0" gui_info="">
+      <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
+      <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_probe" gui_info="">
+    <Object name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/mb/int_to_cpu" gui_info="Trigger Setup=0"/>
+    <Object name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/mb/int_to_nyuzi" gui_info=""/>
+    <Object name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[31:0]" gui_info=""/>
+  </ObjectList>
+  <probeset name="hw project" active="false">
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;hX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;hX"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/mb/flag_int_to_cpu"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;hX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;hX"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/mb/flag_int_to_nyuzi"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;h1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;h1"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/mb/int_to_cpu"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;hX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;hX"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/mb/int_to_nyuzi"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;hX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;hX"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/mb/io_from_nyuzi"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq3&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq3&apos;hX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq3&apos;hX"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/mb/state_cur[2]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/mb/state_cur[1]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/mb/state_cur[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[31]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[30]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[29]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[28]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[27]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[26]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[25]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[24]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[23]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[22]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[21]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[20]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[19]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[18]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[17]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[16]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[15]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[14]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[13]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[12]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[11]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[10]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[9]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[8]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[7]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[6]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[5]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[4]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[3]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[2]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[1]"/>
+        <net name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[0]"/>
+      </nets>
+    </probe>
+  </probeset>
+</hwsession>

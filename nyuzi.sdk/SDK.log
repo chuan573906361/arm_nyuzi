@@ -1,0 +1,197 @@
+15:58:22 INFO  : Launching XSDB server: xsdb.bat G:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+15:58:28 INFO  : XSDB server has started successfully.
+15:58:29 INFO  : Processing command line option -hwspec G:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.sdk/design_1_wrapper.hdf.
+15:59:44 INFO  : ps7_init is completed.
+15:59:44 INFO  : ps7_post_config is completed.
+15:59:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:00:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:01:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:02:15 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:02:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:02:31 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+16:08:29 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:09:05 INFO  : Launching XSDB server: xsdb.bat G:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+16:09:06 INFO  : XSDB server has started successfully.
+16:09:06 INFO  : Processing command line option -hwspec G:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.sdk/design_1_wrapper.hdf.
+16:09:06 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+16:10:02 INFO  : ps7_init is completed.
+16:10:02 INFO  : ps7_post_config is completed.
+16:10:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:10:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:10:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A0563E" && level==0} -index 1' command is executed.
+16:11:04 INFO  : FPGA configured successfully with bitstream "G:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.runs/impl_1/design_1_wrapper.bit"
+16:11:30 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:11:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:11:38 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+16:12:33 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:16:14 INFO  : Launching XSDB server: xsdb.bat G:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+16:16:15 INFO  : XSDB server has started successfully.
+16:16:15 INFO  : Processing command line option -hwspec G:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.sdk/design_1_wrapper.hdf.
+16:16:15 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+16:17:52 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+16:18:12 INFO  : ps7_init is completed.
+16:18:12 INFO  : ps7_post_config is completed.
+16:18:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:19:04 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:19:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:19:19 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+16:19:44 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:22:07 INFO  : Launching XSDB server: xsdb.bat G:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+16:22:08 INFO  : XSDB server has started successfully.
+16:22:08 INFO  : Processing command line option -hwspec G:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.sdk/design_1_wrapper.hdf.
+16:22:08 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+16:25:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:25:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:25:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A0563E" && level==0} -index 1' command is executed.
+16:26:04 INFO  : FPGA configured successfully with bitstream "G:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.runs/impl_1/design_1_wrapper.bit"
+16:26:13 INFO  : ps7_init is completed.
+16:26:13 INFO  : ps7_post_config is completed.
+16:26:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:27:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:29:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:29:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:30:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:32:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:32:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:33:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:34:20 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:34:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:42:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:02:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:02:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A0563E" && level==0} -index 1' command is executed.
+18:02:26 INFO  : FPGA configured successfully with bitstream "G:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.runs/impl_1/design_1_wrapper.bit"
+18:02:31 INFO  : ps7_init is completed.
+18:02:31 INFO  : ps7_post_config is completed.
+18:02:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:03:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:15:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:15:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A0563E" && level==0} -index 1' command is executed.
+19:15:46 INFO  : FPGA configured successfully with bitstream "G:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.runs/impl_1/design_1_wrapper.bit"
+19:15:59 INFO  : ps7_init is completed.
+19:16:00 INFO  : ps7_post_config is completed.
+19:16:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:16:39 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:16:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:19:46 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:19:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:22:50 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:22:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:23:30 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:23:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:52:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:52:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A0563E" && level==0} -index 1' command is executed.
+19:52:37 INFO  : FPGA configured successfully with bitstream "G:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.runs/impl_1/design_1_wrapper.bit"
+19:52:44 INFO  : ps7_init is completed.
+19:52:44 INFO  : ps7_post_config is completed.
+19:52:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:53:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:55:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:56:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:56:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:58:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:59:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:02:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:02:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A0563E" && level==0} -index 1' command is executed.
+21:02:51 INFO  : FPGA configured successfully with bitstream "G:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.runs/impl_1/design_1_wrapper.bit"
+21:02:55 INFO  : ps7_init is completed.
+21:02:55 INFO  : ps7_post_config is completed.
+21:02:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:03:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:09:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:09:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A0563E" && level==0} -index 1' command is executed.
+22:09:19 INFO  : FPGA configured successfully with bitstream "G:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.runs/impl_1/design_1_wrapper.bit"
+22:09:27 INFO  : ps7_init is completed.
+22:09:27 INFO  : ps7_post_config is completed.
+22:09:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:10:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:12:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:17:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:21:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:23:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:26:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:28:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:32:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:37:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:38:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:42:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:49:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:53:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:55:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:58:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:59:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:02:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:03:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:04:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:11:16 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:02:39 INFO  : Launching XSDB server: xsdb.bat G:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:02:42 INFO  : XSDB server has started successfully.
+12:02:48 INFO  : Processing command line option -hwspec G:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.sdk/design_1_wrapper.hdf.
+12:02:48 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+12:12:00 INFO  : ps7_init is completed.
+12:12:00 INFO  : ps7_post_config is completed.
+12:12:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:12:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:45:21 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

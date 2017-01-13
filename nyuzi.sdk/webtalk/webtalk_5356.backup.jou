@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# 
+# Start of session at: Wed Jan 11 16:08:28 2017
+# Process ID: 5356
+# Current directory: G:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: G:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.sdk/webtalk/webtalk.log
+# Journal file: G:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

@@ -1,0 +1,1306 @@
+12:14:15 **** Incremental Build of configuration Debug for project benchmark1 ****
+make all 
+make: Nothing to be done for `all'.
+12:16:05 **** Auto Build of configuration Debug for project benchmark1 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../benchmark1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:90:8: error: unknown type name 'REAL'
+ static REAL time[9][9];
+        ^
+../src/helloworld.c:92:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main ()
+ ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:95:9: error: unknown type name 'REAL'
+  static REAL aa[200][200],a[200][201],b[200],x[200];
+         ^
+../src/helloworld.c:96:2: error: unknown type name 'REAL'
+  REAL cray,ops,total,norma,normx;
+  ^
+../src/helloworld.c:97:2: error: unknown type name 'REAL'
+  REAL resid,residn,eps,t1,tm,tm2;
+  ^
+../src/helloworld.c:98:2: error: unknown type name 'REAL'
+  REAL epslon(),second(),kf;
+  ^
+../src/helloworld.c:106:17: error: 'ROLLING' undeclared (first use in this function)
+  fprintf(stdout,ROLLING);fprintf(stdout,PREC);fprintf(stdout,"Precision Linpack\n\n");
+                 ^
+../src/helloworld.c:106:17: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:106:41: error: 'PREC' undeclared (first use in this function)
+  fprintf(stdout,ROLLING);fprintf(stdout,PREC);fprintf(stdout,"Precision Linpack\n\n");
+                                         ^
+../src/helloworld.c:111:9: warning: implicit declaration of function 'matgen' [-Wimplicit-function-declaration]
+         matgen(a,lda,n,b,&norma);
+         ^
+../src/helloworld.c:113:9: warning: implicit declaration of function 'dgefa' [-Wimplicit-function-declaration]
+         dgefa(a,lda,n,ipvt,&info);
+         ^
+../src/helloworld.c:116:9: warning: implicit declaration of function 'dgesl' [-Wimplicit-function-declaration]
+         dgesl(a,lda,n,ipvt,b,0);
+         ^
+../src/helloworld.c:129:9: warning: implicit declaration of function 'dmxpy' [-Wimplicit-function-declaration]
+         dmxpy(n,b,n,lda,x,a);
+         ^
+../src/helloworld.c:138:23: error: 'REAL' undeclared (first use in this function)
+         eps = epslon((REAL)ONE);
+                       ^
+../src/helloworld.c:138:28: error: expected ')' before 'ONE'
+         eps = epslon((REAL)ONE);
+                            ^
+../src/helloworld.c:157:2: warning: implicit declaration of function 'print_time' [-Wimplicit-function-declaration]
+  print_time(0);
+  ^
+../src/helloworld.c:278:13: error: 'ZERO' undeclared (first use in this function)
+  kf = (kf > ZERO) ? (kf + .5) : (kf - .5);
+             ^
+../src/helloworld.c:279:25: error: 'ONE' undeclared (first use in this function)
+  if (fabs((double)kf) < ONE)
+                         ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:298:1: warning: return type defaults to 'int' [-Wreturn-type]
+ print_time (row)
+ ^
+../src/helloworld.c:307:1: warning: return type defaults to 'int' [-Wreturn-type]
+ matgen(a,lda,n,b,norma)
+ ^
+../src/helloworld.c: In function 'matgen':
+../src/helloworld.c:308:1: error: unknown type name 'REAL'
+ REAL a[],b[],*norma;
+ ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:337:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dgefa(a,lda,n,ipvt,info)
+ ^
+../src/helloworld.c: In function 'dgefa':
+../src/helloworld.c:338:1: error: unknown type name 'REAL'
+ REAL a[];
+ ^
+../src/helloworld.c:379:1: error: unknown type name 'REAL'
+ REAL t;
+ ^
+../src/helloworld.c:399:22: error: 'ZERO' undeclared (first use in this function)
+    if (a[lda*k+l] != ZERO) {
+                      ^
+../src/helloworld.c:411:10: error: 'ONE' undeclared (first use in this function)
+     t = -ONE/a[lda*k+k];
+          ^
+../src/helloworld.c:412:5: warning: implicit declaration of function 'dscal' [-Wimplicit-function-declaration]
+     dscal(n-(k+1),t,&a[lda*k+k+1],1);
+     ^
+../src/helloworld.c:422:6: warning: implicit declaration of function 'daxpy' [-Wimplicit-function-declaration]
+      daxpy(n-(k+1),t,&a[lda*k+k+1],1,
+      ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:437:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dgesl(a,lda,n,ipvt,b,job)
+ ^
+../src/helloworld.c: In function 'dgesl':
+../src/helloworld.c:439:1: error: unknown type name 'REAL'
+ REAL a[],b[];
+ ^
+../src/helloworld.c:487:2: error: unknown type name 'REAL'
+  REAL ddot(),t;
+  ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:546:1: warning: return type defaults to 'int' [-Wreturn-type]
+ daxpy(n,da,dx,incx,dy,incy)
+ ^
+../src/helloworld.c: In function 'daxpy':
+../src/helloworld.c:551:1: error: unknown type name 'REAL'
+ REAL dx[],dy[],da;
+ ^
+../src/helloworld.c:556:13: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+  if(n <= 0) return;
+             ^
+../src/helloworld.c:557:12: error: 'ZERO' undeclared (first use in this function)
+  if (da == ZERO) return;
+            ^
+../src/helloworld.c:557:18: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+  if (da == ZERO) return;
+                  ^
+../src/helloworld.c:573:9: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+         return;
+         ^
+../src/helloworld.c:554:16: warning: unused variable 'mp1' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+                ^
+../src/helloworld.c:554:14: warning: unused variable 'm' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+              ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:602:1: error: unknown type name 'REAL'
+ REAL ddot(n,dx,incx,dy,incy)
+ ^
+../src/helloworld.c: In function 'ddot':
+../src/helloworld.c:607:1: error: unknown type name 'REAL'
+ REAL dx[],dy[];
+ ^
+../src/helloworld.c:611:2: error: unknown type name 'REAL'
+  REAL dtemp;
+  ^
+../src/helloworld.c:614:10: error: 'ZERO' undeclared (first use in this function)
+  dtemp = ZERO;
+          ^
+../src/helloworld.c:612:16: warning: unused variable 'mp1' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+                ^
+../src/helloworld.c:612:14: warning: unused variable 'm' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+              ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:660:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dscal(n,da,dx,incx)
+ ^
+../src/helloworld.c: In function 'dscal':
+../src/helloworld.c:665:1: error: unknown type name 'REAL'
+ REAL da,dx[];
+ ^
+../src/helloworld.c:670:12: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+  if(n <= 0)return;
+            ^
+../src/helloworld.c:678:3: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+   return;
+   ^
+../src/helloworld.c:668:10: warning: unused variable 'mp1' [-Wunused-variable]
+  int i,m,mp1,nincx;
+          ^
+../src/helloworld.c:668:8: warning: unused variable 'm' [-Wunused-variable]
+  int i,m,mp1,nincx;
+        ^
+../src/helloworld.c: In function 'idamax':
+../src/helloworld.c:714:1: error: unknown type name 'REAL'
+ REAL dx[];
+ ^
+../src/helloworld.c:717:2: error: unknown type name 'REAL'
+  REAL dmax;
+  ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:754:1: error: unknown type name 'REAL'
+ REAL epslon (x)
+ ^
+../src/helloworld.c: In function 'epslon':
+../src/helloworld.c:755:1: error: unknown type name 'REAL'
+ REAL x;
+ ^
+../src/helloworld.c:761:2: error: unknown type name 'REAL'
+  REAL a,b,c,eps;
+  ^
+../src/helloworld.c:789:8: error: 'ZERO' undeclared (first use in this function)
+  eps = ZERO;
+        ^
+../src/helloworld.c:791:11: error: 'ONE' undeclared (first use in this function)
+   b = a - ONE;
+           ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:799:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dmxpy (n1, y, n2, ldm, x, m)
+ ^
+../src/helloworld.c: In function 'dmxpy':
+../src/helloworld.c:800:1: error: unknown type name 'REAL'
+ REAL y[], x[], m[];
+ ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:893:1: error: unknown type name 'REAL'
+ REAL second()
+ ^
+../src/helloworld.c: In function 'second':
+../src/helloworld.c:899:1: error: unknown type name 'REAL'
+ REAL t ;
+ ^
+../src/helloworld.c:904:1: warning: implicit declaration of function 'getrusage' [-Wimplicit-function-declaration]
+ getrusage(RUSAGE_SELF,&ru) ;
+ ^
+../src/helloworld.c:906:6: error: 'REAL' undeclared (first use in this function)
+ t = (REAL) (ru.ru_utime.tv_sec+ru.ru_stime.tv_sec) +
+      ^
+../src/helloworld.c: In function 'print_time':
+../src/helloworld.c:304:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'matgen':
+../src/helloworld.c:334:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'dgefa':
+../src/helloworld.c:433:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'dgesl':
+../src/helloworld.c:542:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'ddot':
+../src/helloworld.c:657:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'dmxpy':
+../src/helloworld.c:890:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/helloworld.o] ´íÎó 1
+12:20:20 **** Auto Build of configuration Debug for project benchmark1 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../benchmark1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:94:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main ()
+ ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:113:9: warning: implicit declaration of function 'matgen' [-Wimplicit-function-declaration]
+         matgen(a,lda,n,b,&norma);
+         ^
+../src/helloworld.c:115:9: warning: implicit declaration of function 'dgefa' [-Wimplicit-function-declaration]
+         dgefa(a,lda,n,ipvt,&info);
+         ^
+../src/helloworld.c:118:9: warning: implicit declaration of function 'dgesl' [-Wimplicit-function-declaration]
+         dgesl(a,lda,n,ipvt,b,0);
+         ^
+../src/helloworld.c:131:9: warning: implicit declaration of function 'dmxpy' [-Wimplicit-function-declaration]
+         dmxpy(n,b,n,lda,x,a);
+         ^
+../src/helloworld.c:159:2: warning: implicit declaration of function 'print_time' [-Wimplicit-function-declaration]
+  print_time(0);
+  ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:300:1: warning: return type defaults to 'int' [-Wreturn-type]
+ print_time (row)
+ ^
+../src/helloworld.c:309:1: warning: return type defaults to 'int' [-Wreturn-type]
+ matgen(a,lda,n,b,norma)
+ ^
+../src/helloworld.c:339:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dgefa(a,lda,n,ipvt,info)
+ ^
+../src/helloworld.c: In function 'dgefa':
+../src/helloworld.c:414:5: warning: implicit declaration of function 'dscal' [-Wimplicit-function-declaration]
+     dscal(n-(k+1),t,&a[lda*k+k+1],1);
+     ^
+../src/helloworld.c:424:6: warning: implicit declaration of function 'daxpy' [-Wimplicit-function-declaration]
+      daxpy(n-(k+1),t,&a[lda*k+k+1],1,
+      ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:439:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dgesl(a,lda,n,ipvt,b,job)
+ ^
+../src/helloworld.c:548:1: warning: return type defaults to 'int' [-Wreturn-type]
+ daxpy(n,da,dx,incx,dy,incy)
+ ^
+../src/helloworld.c: In function 'daxpy':
+../src/helloworld.c:558:13: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+  if(n <= 0) return;
+             ^
+../src/helloworld.c:559:18: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+  if (da == ZERO) return;
+                  ^
+../src/helloworld.c:575:9: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+         return;
+         ^
+../src/helloworld.c:556:16: warning: unused variable 'mp1' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+                ^
+../src/helloworld.c:556:14: warning: unused variable 'm' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+              ^
+../src/helloworld.c: In function 'ddot':
+../src/helloworld.c:614:16: warning: unused variable 'mp1' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+                ^
+../src/helloworld.c:614:14: warning: unused variable 'm' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+              ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:662:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dscal(n,da,dx,incx)
+ ^
+../src/helloworld.c: In function 'dscal':
+../src/helloworld.c:672:12: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+  if(n <= 0)return;
+            ^
+../src/helloworld.c:680:3: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+   return;
+   ^
+../src/helloworld.c:670:10: warning: unused variable 'mp1' [-Wunused-variable]
+  int i,m,mp1,nincx;
+          ^
+../src/helloworld.c:670:8: warning: unused variable 'm' [-Wunused-variable]
+  int i,m,mp1,nincx;
+        ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:801:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dmxpy (n1, y, n2, ldm, x, m)
+ ^
+../src/helloworld.c: In function 'second':
+../src/helloworld.c:906:1: warning: implicit declaration of function 'getrusage' [-Wimplicit-function-declaration]
+ getrusage(RUSAGE_SELF,&ru) ;
+ ^
+../src/helloworld.c: In function 'print_time':
+../src/helloworld.c:306:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'matgen':
+../src/helloworld.c:336:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'dgefa':
+../src/helloworld.c:435:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'dgesl':
+../src/helloworld.c:544:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'dmxpy':
+../src/helloworld.c:892:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: benchmark1.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../benchmark1_bsp/ps7_cortexa9_0/lib -o "benchmark1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:284: undefined reference to `floor'
+./src/helloworld.o: In function `second':
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:906: undefined reference to `getrusage'
+collect2.exe: error: ld returned 1 exit status
+make: *** [benchmark1.elf] ´íÎó 1
+13:58:30 **** Auto Build of configuration Debug for project benchmark1 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../benchmark1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:94:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main ()
+ ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:113:9: warning: implicit declaration of function 'matgen' [-Wimplicit-function-declaration]
+         matgen(a,lda,n,b,&norma);
+         ^
+../src/helloworld.c:115:9: warning: implicit declaration of function 'dgefa' [-Wimplicit-function-declaration]
+         dgefa(a,lda,n,ipvt,&info);
+         ^
+../src/helloworld.c:118:9: warning: implicit declaration of function 'dgesl' [-Wimplicit-function-declaration]
+         dgesl(a,lda,n,ipvt,b,0);
+         ^
+../src/helloworld.c:131:9: warning: implicit declaration of function 'dmxpy' [-Wimplicit-function-declaration]
+         dmxpy(n,b,n,lda,x,a);
+         ^
+../src/helloworld.c:159:2: warning: implicit declaration of function 'print_time' [-Wimplicit-function-declaration]
+  print_time(0);
+  ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:300:1: warning: return type defaults to 'int' [-Wreturn-type]
+ print_time (row)
+ ^
+../src/helloworld.c:309:1: warning: return type defaults to 'int' [-Wreturn-type]
+ matgen(a,lda,n,b,norma)
+ ^
+../src/helloworld.c:339:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dgefa(a,lda,n,ipvt,info)
+ ^
+../src/helloworld.c: In function 'dgefa':
+../src/helloworld.c:414:5: warning: implicit declaration of function 'dscal' [-Wimplicit-function-declaration]
+     dscal(n-(k+1),t,&a[lda*k+k+1],1);
+     ^
+../src/helloworld.c:424:6: warning: implicit declaration of function 'daxpy' [-Wimplicit-function-declaration]
+      daxpy(n-(k+1),t,&a[lda*k+k+1],1,
+      ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:439:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dgesl(a,lda,n,ipvt,b,job)
+ ^
+../src/helloworld.c:548:1: warning: return type defaults to 'int' [-Wreturn-type]
+ daxpy(n,da,dx,incx,dy,incy)
+ ^
+../src/helloworld.c: In function 'daxpy':
+../src/helloworld.c:558:13: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+  if(n <= 0) return;
+             ^
+../src/helloworld.c:559:18: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+  if (da == ZERO) return;
+                  ^
+../src/helloworld.c:575:9: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+         return;
+         ^
+../src/helloworld.c:556:16: warning: unused variable 'mp1' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+                ^
+../src/helloworld.c:556:14: warning: unused variable 'm' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+              ^
+../src/helloworld.c: In function 'ddot':
+../src/helloworld.c:614:16: warning: unused variable 'mp1' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+                ^
+../src/helloworld.c:614:14: warning: unused variable 'm' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+              ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:662:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dscal(n,da,dx,incx)
+ ^
+../src/helloworld.c: In function 'dscal':
+../src/helloworld.c:672:12: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+  if(n <= 0)return;
+            ^
+../src/helloworld.c:680:3: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+   return;
+   ^
+../src/helloworld.c:670:10: warning: unused variable 'mp1' [-Wunused-variable]
+  int i,m,mp1,nincx;
+          ^
+../src/helloworld.c:670:8: warning: unused variable 'm' [-Wunused-variable]
+  int i,m,mp1,nincx;
+        ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:801:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dmxpy (n1, y, n2, ldm, x, m)
+ ^
+../src/helloworld.c: In function 'secocnd':
+../src/helloworld.c:906:1: warning: implicit declaration of function 'getrusage' [-Wimplicit-function-declaration]
+ getrusage(RUSAGE_SELF,&ru) ;
+ ^
+../src/helloworld.c: In function 'print_time':
+../src/helloworld.c:306:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'matgen':
+../src/helloworld.c:336:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'dgefa':
+../src/helloworld.c:435:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'dgesl':
+../src/helloworld.c:544:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'dmxpy':
+../src/helloworld.c:892:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: benchmark1.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../benchmark1_bsp/ps7_cortexa9_0/lib -o "benchmark1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:114: undefined reference to `second'
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:116: undefined reference to `second'
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:117: undefined reference to `second'
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:119: undefined reference to `second'
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:162: undefined reference to `second'
+./src/helloworld.o:G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:164: more undefined references to `second' follow
+./src/helloworld.o: In function `main':
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:284: undefined reference to `floor'
+./src/helloworld.o: In function `secocnd':
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:906: undefined reference to `getrusage'
+collect2.exe: error: ld returned 1 exit status
+make: *** [benchmark1.elf] ´íÎó 1
+14:07:16 **** Auto Build of configuration Debug for project benchmark1 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../benchmark1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:94:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main ()
+ ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:114:9: warning: implicit declaration of function 'matgen' [-Wimplicit-function-declaration]
+         matgen(a,lda,n,b,&norma);
+         ^
+../src/helloworld.c:115:9: warning: implicit declaration of function 'second' [-Wimplicit-function-declaration]
+         t1 = second();
+         ^
+../src/helloworld.c:116:9: warning: implicit declaration of function 'dgefa' [-Wimplicit-function-declaration]
+         dgefa(a,lda,n,ipvt,&info);
+         ^
+../src/helloworld.c:119:9: warning: implicit declaration of function 'dgesl' [-Wimplicit-function-declaration]
+         dgesl(a,lda,n,ipvt,b,0);
+         ^
+../src/helloworld.c:132:9: warning: implicit declaration of function 'dmxpy' [-Wimplicit-function-declaration]
+         dmxpy(n,b,n,lda,x,a);
+         ^
+../src/helloworld.c:141:9: warning: implicit declaration of function 'epslon' [-Wimplicit-function-declaration]
+         eps = epslon((REAL)ONE);
+         ^
+../src/helloworld.c:160:2: warning: implicit declaration of function 'print_time' [-Wimplicit-function-declaration]
+  print_time(0);
+  ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:301:1: warning: return type defaults to 'int' [-Wreturn-type]
+ print_time (row)
+ ^
+../src/helloworld.c:310:1: warning: return type defaults to 'int' [-Wreturn-type]
+ matgen(a,lda,n,b,norma)
+ ^
+../src/helloworld.c:340:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dgefa(a,lda,n,ipvt,info)
+ ^
+../src/helloworld.c: In function 'dgefa':
+../src/helloworld.c:415:5: warning: implicit declaration of function 'dscal' [-Wimplicit-function-declaration]
+     dscal(n-(k+1),t,&a[lda*k+k+1],1);
+     ^
+../src/helloworld.c:425:6: warning: implicit declaration of function 'daxpy' [-Wimplicit-function-declaration]
+      daxpy(n-(k+1),t,&a[lda*k+k+1],1,
+      ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:440:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dgesl(a,lda,n,ipvt,b,job)
+ ^
+../src/helloworld.c:549:1: warning: return type defaults to 'int' [-Wreturn-type]
+ daxpy(n,da,dx,incx,dy,incy)
+ ^
+../src/helloworld.c: In function 'daxpy':
+../src/helloworld.c:559:13: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+  if(n <= 0) return;
+             ^
+../src/helloworld.c:560:18: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+  if (da == ZERO) return;
+                  ^
+../src/helloworld.c:576:9: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+         return;
+         ^
+../src/helloworld.c:557:16: warning: unused variable 'mp1' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+                ^
+../src/helloworld.c:557:14: warning: unused variable 'm' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+              ^
+../src/helloworld.c: In function 'ddot':
+../src/helloworld.c:615:16: warning: unused variable 'mp1' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+                ^
+../src/helloworld.c:615:14: warning: unused variable 'm' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+              ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:663:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dscal(n,da,dx,incx)
+ ^
+../src/helloworld.c: In function 'dscal':
+../src/helloworld.c:673:12: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+  if(n <= 0)return;
+            ^
+../src/helloworld.c:681:3: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+   return;
+   ^
+../src/helloworld.c:671:10: warning: unused variable 'mp1' [-Wunused-variable]
+  int i,m,mp1,nincx;
+          ^
+../src/helloworld.c:671:8: warning: unused variable 'm' [-Wunused-variable]
+  int i,m,mp1,nincx;
+        ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:757:6: error: conflicting types for 'epslon'
+ REAL epslon (x)
+      ^
+../src/helloworld.c:141:15: note: previous implicit declaration of 'epslon' was here
+         eps = epslon((REAL)ONE);
+               ^
+../src/helloworld.c:802:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dmxpy (n1, y, n2, ldm, x, m)
+ ^
+../src/helloworld.c: In function 'secocnd':
+../src/helloworld.c:907:1: warning: implicit declaration of function 'getrusage' [-Wimplicit-function-declaration]
+ getrusage(RUSAGE_SELF,&ru) ;
+ ^
+../src/helloworld.c: In function 'print_time':
+../src/helloworld.c:307:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'matgen':
+../src/helloworld.c:337:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'dgefa':
+../src/helloworld.c:436:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'dgesl':
+../src/helloworld.c:545:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'dmxpy':
+../src/helloworld.c:893:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/helloworld.o] ´íÎó 1
+14:11:28 **** Auto Build of configuration Debug for project benchmark1 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../benchmark1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:96:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main ()
+ ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:116:9: warning: implicit declaration of function 'matgen' [-Wimplicit-function-declaration]
+         matgen(a,lda,n,b,&norma);
+         ^
+../src/helloworld.c:117:9: warning: implicit declaration of function 'second' [-Wimplicit-function-declaration]
+         t1 = second();
+         ^
+../src/helloworld.c:118:9: warning: implicit declaration of function 'dgefa' [-Wimplicit-function-declaration]
+         dgefa(a,lda,n,ipvt,&info);
+         ^
+../src/helloworld.c:121:9: warning: implicit declaration of function 'dgesl' [-Wimplicit-function-declaration]
+         dgesl(a,lda,n,ipvt,b,0);
+         ^
+../src/helloworld.c:134:9: warning: implicit declaration of function 'dmxpy' [-Wimplicit-function-declaration]
+         dmxpy(n,b,n,lda,x,a);
+         ^
+../src/helloworld.c:162:2: warning: implicit declaration of function 'print_time' [-Wimplicit-function-declaration]
+  print_time(0);
+  ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:303:1: warning: return type defaults to 'int' [-Wreturn-type]
+ print_time (row)
+ ^
+../src/helloworld.c:312:1: warning: return type defaults to 'int' [-Wreturn-type]
+ matgen(a,lda,n,b,norma)
+ ^
+../src/helloworld.c:342:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dgefa(a,lda,n,ipvt,info)
+ ^
+../src/helloworld.c: In function 'dgefa':
+../src/helloworld.c:417:5: warning: implicit declaration of function 'dscal' [-Wimplicit-function-declaration]
+     dscal(n-(k+1),t,&a[lda*k+k+1],1);
+     ^
+../src/helloworld.c:427:6: warning: implicit declaration of function 'daxpy' [-Wimplicit-function-declaration]
+      daxpy(n-(k+1),t,&a[lda*k+k+1],1,
+      ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:442:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dgesl(a,lda,n,ipvt,b,job)
+ ^
+../src/helloworld.c:551:1: warning: return type defaults to 'int' [-Wreturn-type]
+ daxpy(n,da,dx,incx,dy,incy)
+ ^
+../src/helloworld.c: In function 'daxpy':
+../src/helloworld.c:561:13: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+  if(n <= 0) return;
+             ^
+../src/helloworld.c:562:18: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+  if (da == ZERO) return;
+                  ^
+../src/helloworld.c:578:9: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+         return;
+         ^
+../src/helloworld.c:559:16: warning: unused variable 'mp1' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+                ^
+../src/helloworld.c:559:14: warning: unused variable 'm' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+              ^
+../src/helloworld.c: In function 'ddot':
+../src/helloworld.c:617:16: warning: unused variable 'mp1' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+                ^
+../src/helloworld.c:617:14: warning: unused variable 'm' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+              ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:665:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dscal(n,da,dx,incx)
+ ^
+../src/helloworld.c: In function 'dscal':
+../src/helloworld.c:675:12: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+  if(n <= 0)return;
+            ^
+../src/helloworld.c:683:3: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+   return;
+   ^
+../src/helloworld.c:673:10: warning: unused variable 'mp1' [-Wunused-variable]
+  int i,m,mp1,nincx;
+          ^
+../src/helloworld.c:673:8: warning: unused variable 'm' [-Wunused-variable]
+  int i,m,mp1,nincx;
+        ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:804:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dmxpy (n1, y, n2, ldm, x, m)
+ ^
+../src/helloworld.c: In function 'secocnd':
+../src/helloworld.c:909:1: warning: implicit declaration of function 'getrusage' [-Wimplicit-function-declaration]
+ getrusage(RUSAGE_SELF,&ru) ;
+ ^
+../src/helloworld.c: In function 'print_time':
+../src/helloworld.c:309:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'matgen':
+../src/helloworld.c:339:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'dgefa':
+../src/helloworld.c:438:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'dgesl':
+../src/helloworld.c:547:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'dmxpy':
+../src/helloworld.c:895:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: benchmark1.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../benchmark1_bsp/ps7_cortexa9_0/lib -o "benchmark1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:117: undefined reference to `second'
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:119: undefined reference to `second'
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:120: undefined reference to `second'
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:122: undefined reference to `second'
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:165: undefined reference to `second'
+./src/helloworld.o:G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:167: more undefined references to `second' follow
+./src/helloworld.o: In function `main':
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:287: undefined reference to `floor'
+./src/helloworld.o: In function `secocnd':
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:909: undefined reference to `getrusage'
+collect2.exe: error: ld returned 1 exit status
+make: *** [benchmark1.elf] ´íÎó 1
+14:11:57 **** Auto Build of configuration Debug for project benchmark1 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../benchmark1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:96:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main ()
+ ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:116:9: warning: implicit declaration of function 'matgen' [-Wimplicit-function-declaration]
+         matgen(a,lda,n,b,&norma);
+         ^
+../src/helloworld.c:118:9: warning: implicit declaration of function 'dgefa' [-Wimplicit-function-declaration]
+         dgefa(a,lda,n,ipvt,&info);
+         ^
+../src/helloworld.c:121:9: warning: implicit declaration of function 'dgesl' [-Wimplicit-function-declaration]
+         dgesl(a,lda,n,ipvt,b,0);
+         ^
+../src/helloworld.c:134:9: warning: implicit declaration of function 'dmxpy' [-Wimplicit-function-declaration]
+         dmxpy(n,b,n,lda,x,a);
+         ^
+../src/helloworld.c:162:2: warning: implicit declaration of function 'print_time' [-Wimplicit-function-declaration]
+  print_time(0);
+  ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:303:1: warning: return type defaults to 'int' [-Wreturn-type]
+ print_time (row)
+ ^
+../src/helloworld.c:312:1: warning: return type defaults to 'int' [-Wreturn-type]
+ matgen(a,lda,n,b,norma)
+ ^
+../src/helloworld.c:342:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dgefa(a,lda,n,ipvt,info)
+ ^
+../src/helloworld.c: In function 'dgefa':
+../src/helloworld.c:417:5: warning: implicit declaration of function 'dscal' [-Wimplicit-function-declaration]
+     dscal(n-(k+1),t,&a[lda*k+k+1],1);
+     ^
+../src/helloworld.c:427:6: warning: implicit declaration of function 'daxpy' [-Wimplicit-function-declaration]
+      daxpy(n-(k+1),t,&a[lda*k+k+1],1,
+      ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:442:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dgesl(a,lda,n,ipvt,b,job)
+ ^
+../src/helloworld.c:551:1: warning: return type defaults to 'int' [-Wreturn-type]
+ daxpy(n,da,dx,incx,dy,incy)
+ ^
+../src/helloworld.c: In function 'daxpy':
+../src/helloworld.c:561:13: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+  if(n <= 0) return;
+             ^
+../src/helloworld.c:562:18: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+  if (da == ZERO) return;
+                  ^
+../src/helloworld.c:578:9: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+         return;
+         ^
+../src/helloworld.c:559:16: warning: unused variable 'mp1' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+                ^
+../src/helloworld.c:559:14: warning: unused variable 'm' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+              ^
+../src/helloworld.c: In function 'ddot':
+../src/helloworld.c:617:16: warning: unused variable 'mp1' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+                ^
+../src/helloworld.c:617:14: warning: unused variable 'm' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+              ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:665:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dscal(n,da,dx,incx)
+ ^
+../src/helloworld.c: In function 'dscal':
+../src/helloworld.c:675:12: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+  if(n <= 0)return;
+            ^
+../src/helloworld.c:683:3: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+   return;
+   ^
+../src/helloworld.c:673:10: warning: unused variable 'mp1' [-Wunused-variable]
+  int i,m,mp1,nincx;
+          ^
+../src/helloworld.c:673:8: warning: unused variable 'm' [-Wunused-variable]
+  int i,m,mp1,nincx;
+        ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:804:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dmxpy (n1, y, n2, ldm, x, m)
+ ^
+../src/helloworld.c: In function 'secocnd':
+../src/helloworld.c:909:1: warning: implicit declaration of function 'getrusage' [-Wimplicit-function-declaration]
+ getrusage(RUSAGE_SELF,&ru) ;
+ ^
+../src/helloworld.c: In function 'print_time':
+../src/helloworld.c:309:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'matgen':
+../src/helloworld.c:339:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'dgefa':
+../src/helloworld.c:438:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'dgesl':
+../src/helloworld.c:547:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'dmxpy':
+../src/helloworld.c:895:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: benchmark1.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../benchmark1_bsp/ps7_cortexa9_0/lib -o "benchmark1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:117: undefined reference to `second'
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:119: undefined reference to `second'
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:120: undefined reference to `second'
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:122: undefined reference to `second'
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:165: undefined reference to `second'
+./src/helloworld.o:G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:167: more undefined references to `second' follow
+./src/helloworld.o: In function `main':
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:287: undefined reference to `floor'
+./src/helloworld.o: In function `secocnd':
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:909: undefined reference to `getrusage'
+collect2.exe: error: ld returned 1 exit status
+make: *** [benchmark1.elf] ´íÎó 1
+14:21:23 **** Auto Build of configuration Debug for project test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:389:5: warning: implicit declaration of function 'time' [-Wimplicit-function-declaration]
+     float t = time();
+     ^
+../src/helloworld.c:391:5: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+     sleep(10);
+     ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:71:12: warning: 'InterruptSystemSetup' declared 'static' but never defined [-Wunused-function]
+ static int InterruptSystemSetup(XScuGic *XScuGicInstancePtr);
+            ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+g:/xilinx/sdk/2015.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.9.2/../../../../arm-xilinx-eabi/lib\libc.a(lib_a-gettimeofdayr.o): In function `_gettimeofday_r':
+gettimeofdayr.c:(.text+0x20): undefined reference to `_gettimeofday'
+collect2.exe: error: ld returned 1 exit status
+make: *** [test.elf] ´íÎó 1
+14:21:51 **** Auto Build of configuration Debug for project test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:389:15: error: too few arguments to function 'time'
+     float t = time();
+               ^
+In file included from g:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:29:0,
+                 from ../src/helloworld.c:48:
+g:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\time.h:68:11: note: declared here
+ time_t    _EXFUN(time,     (time_t *_timer));
+           ^
+../src/helloworld.c:391:5: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+     sleep(10);
+     ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:71:12: warning: 'InterruptSystemSetup' declared 'static' but never defined [-Wunused-function]
+ static int InterruptSystemSetup(XScuGic *XScuGicInstancePtr);
+            ^
+make: *** [src/helloworld.o] ´íÎó 1
+14:23:24 **** Auto Build of configuration Debug for project test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:390:10: warning: passing argument 1 of 'time' makes pointer from integer without a cast
+     time(t);
+          ^
+In file included from g:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:29:0,
+                 from ../src/helloworld.c:48:
+g:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\time.h:68:11: note: expected 'time_t *' but argument is of type 'time_t'
+ time_t    _EXFUN(time,     (time_t *_timer));
+           ^
+../src/helloworld.c:391:5: warning: format '%f' expects argument of type 'double', but argument 2 has type 'time_t' [-Wformat=]
+     printf("time is %f\n",t);
+     ^
+../src/helloworld.c:391:5: warning: format '%f' expects argument of type 'double', but argument 2 has type 'time_t' [-Wformat=]
+../src/helloworld.c:392:5: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+     sleep(10);
+     ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:71:12: warning: 'InterruptSystemSetup' declared 'static' but never defined [-Wunused-function]
+ static int InterruptSystemSetup(XScuGic *XScuGicInstancePtr);
+            ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:390:5: warning: 't' is used uninitialized in this function [-Wuninitialized]
+     time(t);
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+g:/xilinx/sdk/2015.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.9.2/../../../../arm-xilinx-eabi/lib\libc.a(lib_a-gettimeofdayr.o): In function `_gettimeofday_r':
+gettimeofdayr.c:(.text+0x20): undefined reference to `_gettimeofday'
+collect2.exe: error: ld returned 1 exit status
+make: *** [test.elf] ´íÎó 1
+14:26:32 **** Auto Build of configuration Debug for project test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:390:5: error: too many arguments to function 'clock'
+     clock(t);
+     ^
+In file included from g:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:29:0,
+                 from ../src/helloworld.c:48:
+g:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\time.h:65:12: note: declared here
+ clock_t    _EXFUN(clock,    (void));
+            ^
+../src/helloworld.c:391:5: warning: format '%f' expects argument of type 'double', but argument 2 has type 'clock_t' [-Wformat=]
+     printf("time is %f\n",t);
+     ^
+../src/helloworld.c:391:5: warning: format '%f' expects argument of type 'double', but argument 2 has type 'clock_t' [-Wformat=]
+../src/helloworld.c:392:5: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+     sleep(10);
+     ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:71:12: warning: 'InterruptSystemSetup' declared 'static' but never defined [-Wunused-function]
+ static int InterruptSystemSetup(XScuGic *XScuGicInstancePtr);
+            ^
+make: *** [src/helloworld.o] ´íÎó 1
+14:26:47 **** Auto Build of configuration Debug for project test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:391:5: warning: format '%f' expects argument of type 'double', but argument 2 has type 'clock_t' [-Wformat=]
+     printf("time is %f\n",t);
+     ^
+../src/helloworld.c:391:5: warning: format '%f' expects argument of type 'double', but argument 2 has type 'clock_t' [-Wformat=]
+../src/helloworld.c:392:5: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+     sleep(10);
+     ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:71:12: warning: 'InterruptSystemSetup' declared 'static' but never defined [-Wunused-function]
+ static int InterruptSystemSetup(XScuGic *XScuGicInstancePtr);
+            ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+g:/xilinx/sdk/2015.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.9.2/../../../../arm-xilinx-eabi/lib\libc.a(lib_a-timesr.o): In function `_times_r':
+timesr.c:(.text+0x4): undefined reference to `_times'
+collect2.exe: error: ld returned 1 exit status
+make: *** [test.elf] ´íÎó 1
+14:31:16 **** Auto Build of configuration Debug for project test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:391:19: warning: passing argument 1 of 'localtime' makes pointer from integer without a cast
+     t = localtime(tt);
+                   ^
+In file included from g:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:29:0,
+                 from ../src/helloworld.c:48:
+g:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\time.h:73:12: note: expected 'const time_t *' but argument is of type 'time_t'
+ struct tm *_EXFUN(localtime,(const time_t *_timer));
+            ^
+../src/helloworld.c:391:7: error: incompatible types when assigning to type 'struct tm' from type 'struct tm *'
+     t = localtime(tt);
+       ^
+../src/helloworld.c:392:5: warning: format '%f' expects argument of type 'double', but argument 2 has type 'struct tm' [-Wformat=]
+     printf("time is %f\n",t);
+     ^
+../src/helloworld.c:392:5: warning: format '%f' expects argument of type 'double', but argument 2 has type 'struct tm' [-Wformat=]
+../src/helloworld.c:393:5: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+     sleep(10);
+     ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:71:12: warning: 'InterruptSystemSetup' declared 'static' but never defined [-Wunused-function]
+ static int InterruptSystemSetup(XScuGic *XScuGicInstancePtr);
+            ^
+make: *** [src/helloworld.o] ´íÎó 1
+14:31:28 **** Auto Build of configuration Debug for project test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:391:19: warning: passing argument 1 of 'localtime' makes pointer from integer without a cast
+     t = localtime(tt);
+                   ^
+In file included from g:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:29:0,
+                 from ../src/helloworld.c:48:
+g:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\time.h:73:12: note: expected 'const time_t *' but argument is of type 'time_t'
+ struct tm *_EXFUN(localtime,(const time_t *_timer));
+            ^
+../src/helloworld.c:392:5: warning: format '%f' expects argument of type 'double', but argument 2 has type 'struct tm *' [-Wformat=]
+     printf("time is %f\n",t);
+     ^
+../src/helloworld.c:392:5: warning: format '%f' expects argument of type 'double', but argument 2 has type 'struct tm *' [-Wformat=]
+../src/helloworld.c:393:5: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+     sleep(10);
+     ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:71:12: warning: 'InterruptSystemSetup' declared 'static' but never defined [-Wunused-function]
+ static int InterruptSystemSetup(XScuGic *XScuGicInstancePtr);
+            ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:391:9: warning: 'tt' is used uninitialized in this function [-Wuninitialized]
+     t = localtime(tt);
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size test.elf  |tee "test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  69520	   3168	  22668	  95356	  1747c	test.elf
+'Finished building: test.elf.size'
+' '
+14:32:24 **** Auto Build of configuration Debug for project test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:391:10: warning: passing argument 1 of 'time' makes pointer from integer without a cast
+     time(tt);
+          ^
+In file included from g:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:29:0,
+                 from ../src/helloworld.c:48:
+g:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\time.h:68:11: note: expected 'time_t *' but argument is of type 'time_t'
+ time_t    _EXFUN(time,     (time_t *_timer));
+           ^
+../src/helloworld.c:392:19: warning: passing argument 1 of 'localtime' makes pointer from integer without a cast
+     t = localtime(tt);
+                   ^
+In file included from g:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:29:0,
+                 from ../src/helloworld.c:48:
+g:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\time.h:73:12: note: expected 'const time_t *' but argument is of type 'time_t'
+ struct tm *_EXFUN(localtime,(const time_t *_timer));
+            ^
+../src/helloworld.c:393:5: warning: format '%f' expects argument of type 'double', but argument 2 has type 'struct tm *' [-Wformat=]
+     printf("time is %f\n",t);
+     ^
+../src/helloworld.c:393:5: warning: format '%f' expects argument of type 'double', but argument 2 has type 'struct tm *' [-Wformat=]
+../src/helloworld.c:394:5: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+     sleep(10);
+     ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:71:12: warning: 'InterruptSystemSetup' declared 'static' but never defined [-Wunused-function]
+ static int InterruptSystemSetup(XScuGic *XScuGicInstancePtr);
+            ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:391:5: warning: 'tt' is used uninitialized in this function [-Wuninitialized]
+     time(tt);
+     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+g:/xilinx/sdk/2015.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.9.2/../../../../arm-xilinx-eabi/lib\libc.a(lib_a-gettimeofdayr.o): In function `_gettimeofday_r':
+gettimeofdayr.c:(.text+0x20): undefined reference to `_gettimeofday'
+collect2.exe: error: ld returned 1 exit status
+make: *** [test.elf] ´íÎó 1
+14:37:43 **** Auto Build of configuration Debug for project test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:390:5: error: too many arguments to function 'clock'
+     clock(clk);
+     ^
+In file included from g:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:29:0,
+                 from ../src/helloworld.c:48:
+g:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\time.h:65:12: note: declared here
+ clock_t    _EXFUN(clock,    (void));
+            ^
+../src/helloworld.c:391:27: error: 't' undeclared (first use in this function)
+     printf("time is %f\n",t);
+                           ^
+../src/helloworld.c:391:27: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:392:5: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+     sleep(10);
+     ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:71:12: warning: 'InterruptSystemSetup' declared 'static' but never defined [-Wunused-function]
+ static int InterruptSystemSetup(XScuGic *XScuGicInstancePtr);
+            ^
+make: *** [src/helloworld.o] ´íÎó 1
+14:37:55 **** Auto Build of configuration Debug for project test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:390:5: error: too many arguments to function 'clock'
+     clock(clk);
+     ^
+In file included from g:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:29:0,
+                 from ../src/helloworld.c:48:
+g:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\time.h:65:12: note: declared here
+ clock_t    _EXFUN(clock,    (void));
+            ^
+../src/helloworld.c:391:5: warning: format '%d' expects argument of type 'int', but argument 2 has type 'clock_t' [-Wformat=]
+     printf("time is %d\n",clk);
+     ^
+../src/helloworld.c:391:5: warning: format '%d' expects argument of type 'int', but argument 2 has type 'clock_t' [-Wformat=]
+../src/helloworld.c:392:5: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+     sleep(10);
+     ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:71:12: warning: 'InterruptSystemSetup' declared 'static' but never defined [-Wunused-function]
+ static int InterruptSystemSetup(XScuGic *XScuGicInstancePtr);
+            ^
+make: *** [src/helloworld.o] ´íÎó 1
+14:38:04 **** Auto Build of configuration Debug for project test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:391:5: warning: format '%d' expects argument of type 'int', but argument 2 has type 'clock_t' [-Wformat=]
+     printf("time is %d\n",clk);
+     ^
+../src/helloworld.c:391:5: warning: format '%d' expects argument of type 'int', but argument 2 has type 'clock_t' [-Wformat=]
+../src/helloworld.c:392:5: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+     sleep(10);
+     ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:71:12: warning: 'InterruptSystemSetup' declared 'static' but never defined [-Wunused-function]
+ static int InterruptSystemSetup(XScuGic *XScuGicInstancePtr);
+            ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+g:/xilinx/sdk/2015.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.9.2/../../../../arm-xilinx-eabi/lib\libc.a(lib_a-timesr.o): In function `_times_r':
+timesr.c:(.text+0x4): undefined reference to `_times'
+collect2.exe: error: ld returned 1 exit status
+make: *** [test.elf] ´íÎó 1
+14:39:27 **** Auto Build of configuration Debug for project test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:392:5: warning: format '%d' expects argument of type 'int', but argument 2 has type 'clock_t' [-Wformat=]
+     printf("time is %d\n",clk);
+     ^
+../src/helloworld.c:392:5: warning: format '%d' expects argument of type 'int', but argument 2 has type 'clock_t' [-Wformat=]
+../src/helloworld.c:393:5: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+     sleep(10);
+     ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:72:12: warning: 'InterruptSystemSetup' declared 'static' but never defined [-Wunused-function]
+ static int InterruptSystemSetup(XScuGic *XScuGicInstancePtr);
+            ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+g:/xilinx/sdk/2015.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.9.2/../../../../arm-xilinx-eabi/lib\libc.a(lib_a-timesr.o): In function `_times_r':
+timesr.c:(.text+0x4): undefined reference to `_times'
+collect2.exe: error: ld returned 1 exit status
+make: *** [test.elf] ´íÎó 1
+14:39:39 **** Auto Build of configuration Debug for project test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:392:27: error: 'clk' undeclared (first use in this function)
+     printf("time is %d\n",clk);
+                           ^
+../src/helloworld.c:392:27: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:393:5: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+     sleep(10);
+     ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:72:12: warning: 'InterruptSystemSetup' declared 'static' but never defined [-Wunused-function]
+ static int InterruptSystemSetup(XScuGic *XScuGicInstancePtr);
+            ^
+make: *** [src/helloworld.o] ´íÎó 1
+14:39:51 **** Auto Build of configuration Debug for project test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:393:5: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+     sleep(10);
+     ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:72:12: warning: 'InterruptSystemSetup' declared 'static' but never defined [-Wunused-function]
+ static int InterruptSystemSetup(XScuGic *XScuGicInstancePtr);
+            ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size test.elf  |tee "test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  67380	   3096	  22668	  93144	  16bd8	test.elf
+'Finished building: test.elf.size'
+' '

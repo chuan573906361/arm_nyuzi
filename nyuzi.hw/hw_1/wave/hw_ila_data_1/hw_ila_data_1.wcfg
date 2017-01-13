@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<wave_config>
+	<wave_state>
+	</wave_state>
+	<db_ref_list>
+		<db_ref path="G:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1" type="auto">
+			<top_modules>
+				<top_module name="top">
+				</top_module>
+			</top_modules>
+		</db_ref>
+	</db_ref_list>
+	<WVObjectSize size="5">
+	</WVObjectSize>
+	<wvobject fp_name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/mb/state_cur" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/mb/state_cur[2:0]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/mb/state_cur[2:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[31:0]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/slv_reg0[31:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/mb/flag_int_to_cpu" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/mb/flag_int_to_cpu</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/mb/flag_int_to_cpu</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/mb/flag_int_to_nyuzi" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/mb/flag_int_to_nyuzi</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/mb/flag_int_to_nyuzi</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/mb/io_from_nyuzi" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/mb/io_from_nyuzi</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/mb/io_from_nyuzi</obj_property>
+	</wvobject>
+</wave_config>
+

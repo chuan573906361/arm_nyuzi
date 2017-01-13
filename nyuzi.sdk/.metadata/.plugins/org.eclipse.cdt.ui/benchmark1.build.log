@@ -1,0 +1,137 @@
+14:11:57 **** Auto Build of configuration Debug for project benchmark1 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../benchmark1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:96:1: warning: return type defaults to 'int' [-Wreturn-type]
+ main ()
+ ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:116:9: warning: implicit declaration of function 'matgen' [-Wimplicit-function-declaration]
+         matgen(a,lda,n,b,&norma);
+         ^
+../src/helloworld.c:118:9: warning: implicit declaration of function 'dgefa' [-Wimplicit-function-declaration]
+         dgefa(a,lda,n,ipvt,&info);
+         ^
+../src/helloworld.c:121:9: warning: implicit declaration of function 'dgesl' [-Wimplicit-function-declaration]
+         dgesl(a,lda,n,ipvt,b,0);
+         ^
+../src/helloworld.c:134:9: warning: implicit declaration of function 'dmxpy' [-Wimplicit-function-declaration]
+         dmxpy(n,b,n,lda,x,a);
+         ^
+../src/helloworld.c:162:2: warning: implicit declaration of function 'print_time' [-Wimplicit-function-declaration]
+  print_time(0);
+  ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:303:1: warning: return type defaults to 'int' [-Wreturn-type]
+ print_time (row)
+ ^
+../src/helloworld.c:312:1: warning: return type defaults to 'int' [-Wreturn-type]
+ matgen(a,lda,n,b,norma)
+ ^
+../src/helloworld.c:342:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dgefa(a,lda,n,ipvt,info)
+ ^
+../src/helloworld.c: In function 'dgefa':
+../src/helloworld.c:417:5: warning: implicit declaration of function 'dscal' [-Wimplicit-function-declaration]
+     dscal(n-(k+1),t,&a[lda*k+k+1],1);
+     ^
+../src/helloworld.c:427:6: warning: implicit declaration of function 'daxpy' [-Wimplicit-function-declaration]
+      daxpy(n-(k+1),t,&a[lda*k+k+1],1,
+      ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:442:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dgesl(a,lda,n,ipvt,b,job)
+ ^
+../src/helloworld.c:551:1: warning: return type defaults to 'int' [-Wreturn-type]
+ daxpy(n,da,dx,incx,dy,incy)
+ ^
+../src/helloworld.c: In function 'daxpy':
+../src/helloworld.c:561:13: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+  if(n <= 0) return;
+             ^
+../src/helloworld.c:562:18: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+  if (da == ZERO) return;
+                  ^
+../src/helloworld.c:578:9: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+         return;
+         ^
+../src/helloworld.c:559:16: warning: unused variable 'mp1' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+                ^
+../src/helloworld.c:559:14: warning: unused variable 'm' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+              ^
+../src/helloworld.c: In function 'ddot':
+../src/helloworld.c:617:16: warning: unused variable 'mp1' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+                ^
+../src/helloworld.c:617:14: warning: unused variable 'm' [-Wunused-variable]
+  int i,ix,iy,m,mp1;
+              ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:665:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dscal(n,da,dx,incx)
+ ^
+../src/helloworld.c: In function 'dscal':
+../src/helloworld.c:675:12: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+  if(n <= 0)return;
+            ^
+../src/helloworld.c:683:3: warning: 'return' with no value, in function returning non-void [-Wreturn-type]
+   return;
+   ^
+../src/helloworld.c:673:10: warning: unused variable 'mp1' [-Wunused-variable]
+  int i,m,mp1,nincx;
+          ^
+../src/helloworld.c:673:8: warning: unused variable 'm' [-Wunused-variable]
+  int i,m,mp1,nincx;
+        ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:804:1: warning: return type defaults to 'int' [-Wreturn-type]
+ dmxpy (n1, y, n2, ldm, x, m)
+ ^
+../src/helloworld.c: In function 'secocnd':
+../src/helloworld.c:909:1: warning: implicit declaration of function 'getrusage' [-Wimplicit-function-declaration]
+ getrusage(RUSAGE_SELF,&ru) ;
+ ^
+../src/helloworld.c: In function 'print_time':
+../src/helloworld.c:309:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'matgen':
+../src/helloworld.c:339:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'dgefa':
+../src/helloworld.c:438:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'dgesl':
+../src/helloworld.c:547:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/helloworld.c: In function 'dmxpy':
+../src/helloworld.c:895:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: benchmark1.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../benchmark1_bsp/ps7_cortexa9_0/lib -o "benchmark1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:117: undefined reference to `second'
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:119: undefined reference to `second'
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:120: undefined reference to `second'
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:122: undefined reference to `second'
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:165: undefined reference to `second'
+./src/helloworld.o:G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:167: more undefined references to `second' follow
+./src/helloworld.o: In function `main':
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:287: undefined reference to `floor'
+./src/helloworld.o: In function `secocnd':
+G:\xilinx_project\zynq_nyuzi_0111\nyuzi\nyuzi.sdk\benchmark1\Debug/../src/helloworld.c:909: undefined reference to `getrusage'
+collect2.exe: error: ld returned 1 exit status
+make: *** [benchmark1.elf] ´íÎó 1
+
+14:11:58 Build Finished (took 536ms)
+

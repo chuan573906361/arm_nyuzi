@@ -1,0 +1,731 @@
+
+*** Running vivado
+    with args -log design_1_wrapper.vdi -applog -m64 -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+
+
+****** Vivado v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source design_1_wrapper.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 8625 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 8 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.4
+INFO: [Device 21-403] Loading part xc7z045ffg900-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [g:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+Finished Parsing XDC File [g:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+Parsing XDC File [g:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_board.xdc] for cell 'design_1_i/proc_sys_reset_0'
+Finished Parsing XDC File [g:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_board.xdc] for cell 'design_1_i/proc_sys_reset_0'
+Parsing XDC File [g:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xdc] for cell 'design_1_i/proc_sys_reset_0'
+Finished Parsing XDC File [g:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xdc] for cell 'design_1_i/proc_sys_reset_0'
+Parsing XDC File [G:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.srcs/constrs_1/new/nyuzi.xdc]
+WARNING: [Vivado 12-507] No nets matched 'design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/mb/flag_int_to_cpu'. [G:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.srcs/constrs_1/new/nyuzi.xdc:1]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [G:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.srcs/constrs_1/new/nyuzi.xdc:1]
+WARNING: [Vivado 12-507] No nets matched 'design_1_i/mailbox_v1_0_0/inst/mailbox_v1_0_S00_AXI_inst/mb/flag_int_to_nyuzi'. [G:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.srcs/constrs_1/new/nyuzi.xdc:2]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [G:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.srcs/constrs_1/new/nyuzi.xdc:2]
+WARNING: [Vivado 12-507] No nets matched 'u_ila_0_FCLK_CLK0'. [G:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.srcs/constrs_1/new/nyuzi.xdc:47]
+CRITICAL WARNING: [Common 17-162] Invalid option value specified for '-nets'. [G:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.srcs/constrs_1/new/nyuzi.xdc:47]
+Finished Parsing XDC File [G:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.srcs/constrs_1/new/nyuzi.xdc]
+Parsing XDC File [g:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc] for cell 'design_1_i/axi_mem_intercon/s00_couplers/auto_us/inst'
+Finished Parsing XDC File [g:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc] for cell 'design_1_i/axi_mem_intercon/s00_couplers/auto_us/inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 7261 instances were transformed.
+  RAM128X1D => RAM128X1D (RAMD64E, RAMD64E, MUXF7, MUXF7, RAMD64E, RAMD64E): 16 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 74 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 1 instances
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 7086 instances
+  RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 84 instances
+
+link_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:42 . Memory (MB): peak = 987.961 ; gain = 775.855
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z045'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z045'
+INFO: [Common 17-1223] The version limit for your license is '2016.10' and will expire in -72 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 987.961 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Generate And Synthesize Debug Cores
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.cache/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/xilinx_project/zynq_nyuzi_ip_0109'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/xilinx_project/zynq_nyuzi_mailbox_ip_0110_2/mailbox'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/Xilinx/Vivado/2015.4/data/ip'.
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:1.1 for cell dbg_hub_CV.
+INFO: [Chipscope 16-220] Re-using generated and synthesized IP, "xilinx.com:ip:xsdbm:1.1", from Vivado IP cache entry "cfcc7bd6a4c84397".
+get_clocks: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 1672.348 ; gain = 19.484
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:ila:6.0 for cell u_ila_0_0_CV.
+INFO: [Chipscope 16-220] Re-using generated and synthesized IP, "xilinx.com:ip:ila:6.0", from Vivado IP cache entry "9efe25884dea0fd8".
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.548 . Memory (MB): peak = 1709.945 ; gain = 0.000
+Phase 1 Generate And Synthesize Debug Cores | Checksum: 2951bf74a
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:01:29 . Memory (MB): peak = 1709.945 ; gain = 83.109
+Implement Debug Cores | Checksum: 259229e0c
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 2 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 2 Retarget | Checksum: 23a49434b
+
+Time (s): cpu = 00:00:50 ; elapsed = 00:01:49 . Memory (MB): peak = 1762.293 ; gain = 135.457
+
+Phase 3 Constant Propagation
+INFO: [Opt 31-138] Pushed 6 inverter(s) to 8 load pin(s).
+INFO: [Opt 31-10] Eliminated 493 cells.
+Phase 3 Constant Propagation | Checksum: 1538a4d7b
+
+Time (s): cpu = 00:01:06 ; elapsed = 00:02:06 . Memory (MB): peak = 1762.293 ; gain = 135.457
+
+Phase 4 Sweep
+INFO: [Opt 31-12] Eliminated 5703 unconnected nets.
+INFO: [Opt 31-11] Eliminated 726 unconnected cells.
+Phase 4 Sweep | Checksum: 242fd8e8c
+
+Time (s): cpu = 00:01:20 ; elapsed = 00:02:19 . Memory (MB): peak = 1762.293 ; gain = 135.457
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.422 . Memory (MB): peak = 1762.293 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 242fd8e8c
+
+Time (s): cpu = 00:01:22 ; elapsed = 00:02:21 . Memory (MB): peak = 1762.293 ; gain = 135.457
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 104 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 76 newly gated: 68 Total Ports: 208
+Number of Flops added for Enable Generation: 1
+
+Ending PowerOpt Patch Enables Task | Checksum: 1b92365ef
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.746 . Memory (MB): peak = 2637.121 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 1b92365ef
+
+Time (s): cpu = 00:01:31 ; elapsed = 00:00:45 . Memory (MB): peak = 2637.121 ; gain = 874.828
+INFO: [Common 17-83] Releasing license: Implementation
+41 Infos, 3 Warnings, 3 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:03:25 ; elapsed = 00:03:33 . Memory (MB): peak = 2637.121 ; gain = 1649.160
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.103 . Memory (MB): peak = 2637.121 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:37 ; elapsed = 00:00:24 . Memory (MB): peak = 2637.121 ; gain = 0.000
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file G:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.runs/impl_1/design_1_wrapper_drc_opted.rpt.
+report_drc: Time (s): cpu = 00:00:22 ; elapsed = 00:00:11 . Memory (MB): peak = 2637.121 ; gain = 0.000
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z045'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z045'
+INFO: [Common 17-1223] The version limit for your license is '2016.10' and will expire in -72 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.349 . Memory (MB): peak = 2637.121 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 4 inverter(s) to 4 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.274 . Memory (MB): peak = 2637.121 ; gain = 0.000
+
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 1.1.1 Pre-Place Cells
+Phase 1.1.1 Pre-Place Cells | Checksum: ed38e012
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 2637.121 ; gain = 0.000
+WARNING: [Place 30-12] An IO Bus FIXED_IO_mio with more than one IO standard is found. Components associated with this bus are: 
+	FIXED_IO_mio[53] of IOStandard LVCMOS18
+	FIXED_IO_mio[52] of IOStandard LVCMOS18
+	FIXED_IO_mio[51] of IOStandard LVCMOS18
+	FIXED_IO_mio[50] of IOStandard LVCMOS18
+	FIXED_IO_mio[49] of IOStandard LVCMOS18
+	FIXED_IO_mio[48] of IOStandard LVCMOS18
+	FIXED_IO_mio[47] of IOStandard LVCMOS18
+	FIXED_IO_mio[46] of IOStandard LVCMOS18
+	FIXED_IO_mio[45] of IOStandard LVCMOS18
+	FIXED_IO_mio[44] of IOStandard LVCMOS18
+	FIXED_IO_mio[43] of IOStandard LVCMOS18
+	FIXED_IO_mio[42] of IOStandard LVCMOS18
+	FIXED_IO_mio[41] of IOStandard LVCMOS18
+	FIXED_IO_mio[40] of IOStandard LVCMOS18
+	FIXED_IO_mio[39] of IOStandard LVCMOS18
+	FIXED_IO_mio[38] of IOStandard LVCMOS18
+	FIXED_IO_mio[37] of IOStandard LVCMOS18
+	FIXED_IO_mio[36] of IOStandard LVCMOS18
+	FIXED_IO_mio[35] of IOStandard LVCMOS18
+	FIXED_IO_mio[34] of IOStandard LVCMOS18
+	FIXED_IO_mio[33] of IOStandard LVCMOS18
+	FIXED_IO_mio[32] of IOStandard LVCMOS18
+	FIXED_IO_mio[31] of IOStandard LVCMOS18
+	FIXED_IO_mio[30] of IOStandard LVCMOS18
+	FIXED_IO_mio[29] of IOStandard LVCMOS18
+	FIXED_IO_mio[28] of IOStandard LVCMOS18
+	FIXED_IO_mio[27] of IOStandard HSTL_I_18
+	FIXED_IO_mio[26] of IOStandard HSTL_I_18
+	FIXED_IO_mio[25] of IOStandard HSTL_I_18
+	FIXED_IO_mio[24] of IOStandard HSTL_I_18
+	FIXED_IO_mio[23] of IOStandard HSTL_I_18
+	FIXED_IO_mio[22] of IOStandard HSTL_I_18
+	FIXED_IO_mio[21] of IOStandard HSTL_I_18
+	FIXED_IO_mio[20] of IOStandard HSTL_I_18
+	FIXED_IO_mio[19] of IOStandard HSTL_I_18
+	FIXED_IO_mio[18] of IOStandard HSTL_I_18
+	FIXED_IO_mio[17] of IOStandard HSTL_I_18
+	FIXED_IO_mio[16] of IOStandard HSTL_I_18
+	FIXED_IO_mio[15] of IOStandard LVCMOS18
+	FIXED_IO_mio[14] of IOStandard LVCMOS18
+	FIXED_IO_mio[13] of IOStandard LVCMOS18
+	FIXED_IO_mio[12] of IOStandard LVCMOS18
+	FIXED_IO_mio[11] of IOStandard LVCMOS18
+	FIXED_IO_mio[10] of IOStandard LVCMOS18
+	FIXED_IO_mio[9] of IOStandard LVCMOS18
+	FIXED_IO_mio[8] of IOStandard LVCMOS18
+	FIXED_IO_mio[7] of IOStandard LVCMOS18
+	FIXED_IO_mio[6] of IOStandard LVCMOS18
+	FIXED_IO_mio[5] of IOStandard LVCMOS18
+	FIXED_IO_mio[4] of IOStandard LVCMOS18
+	FIXED_IO_mio[3] of IOStandard LVCMOS18
+	FIXED_IO_mio[2] of IOStandard LVCMOS18
+	FIXED_IO_mio[1] of IOStandard LVCMOS18
+	FIXED_IO_mio[0] of IOStandard LVCMOS18
+WARNING: [Place 30-12] An IO Bus red_led with more than one IO standard is found. Components associated with this bus are: 
+	red_led[3] of IOStandard LVCMOS15
+	red_led[2] of IOStandard LVCMOS15
+	red_led[1] of IOStandard LVCMOS25
+	red_led[0] of IOStandard LVCMOS25
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 1.1.2 IO and Clk Clean Up
+Phase 1.1.2 IO and Clk Clean Up | Checksum: ed38e012
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:01:06 . Memory (MB): peak = 2637.121 ; gain = 0.000
+
+Phase 1.1.3 Implementation Feasibility check On IDelay
+Phase 1.1.3 Implementation Feasibility check On IDelay | Checksum: ed38e012
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:01:06 . Memory (MB): peak = 2637.121 ; gain = 0.000
+
+Phase 1.1.4 Commit IO Placement
+Phase 1.1.4 Commit IO Placement | Checksum: bed6e55a
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:01:06 . Memory (MB): peak = 2637.121 ; gain = 0.000
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: e825856f
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:01:06 . Memory (MB): peak = 2637.121 ; gain = 0.000
+
+Phase 1.2 Build Placer Netlist Model
+
+Phase 1.2.1 Place Init Design
+
+Phase 1.2.1.1 Init Lut Pin Assignment
+Phase 1.2.1.1 Init Lut Pin Assignment | Checksum: 1773b8615
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:01:19 . Memory (MB): peak = 2637.121 ; gain = 0.000
+Phase 1.2.1 Place Init Design | Checksum: 1afbb1c1d
+
+Time (s): cpu = 00:02:42 ; elapsed = 00:02:13 . Memory (MB): peak = 2637.121 ; gain = 0.000
+Phase 1.2 Build Placer Netlist Model | Checksum: 1afbb1c1d
+
+Time (s): cpu = 00:02:42 ; elapsed = 00:02:13 . Memory (MB): peak = 2637.121 ; gain = 0.000
+
+Phase 1.3 Constrain Clocks/Macros
+
+Phase 1.3.1 Constrain Global/Regional Clocks
+Phase 1.3.1 Constrain Global/Regional Clocks | Checksum: 1afbb1c1d
+
+Time (s): cpu = 00:02:42 ; elapsed = 00:02:14 . Memory (MB): peak = 2637.121 ; gain = 0.000
+Phase 1.3 Constrain Clocks/Macros | Checksum: 1afbb1c1d
+
+Time (s): cpu = 00:02:42 ; elapsed = 00:02:14 . Memory (MB): peak = 2637.121 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 1afbb1c1d
+
+Time (s): cpu = 00:02:42 ; elapsed = 00:02:14 . Memory (MB): peak = 2637.121 ; gain = 0.000
+
+Phase 2 Global Placement
+QPProb[0] Falling back to DIAG preconditioner for dim[0]
+QPProb[0] Falling back to DIAG preconditioner for dim[1]
+QPProb[0] Falling back to DIAG preconditioner for dim[0]
+QPProb[0] Falling back to DIAG preconditioner for dim[1]
+QPProb[0] Falling back to DIAG preconditioner for dim[0]
+QPProb[0] Falling back to DIAG preconditioner for dim[1]
+QPProb[0] Falling back to DIAG preconditioner for dim[0]
+QPProb[0] Falling back to DIAG preconditioner for dim[1]
+QPProb[0] Falling back to DIAG preconditioner for dim[0]
+QPProb[0] Falling back to DIAG preconditioner for dim[1]
+Phase 2 Global Placement | Checksum: 12e3c1c4f
+
+Time (s): cpu = 00:07:18 ; elapsed = 00:05:09 . Memory (MB): peak = 2652.289 ; gain = 15.168
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 12e3c1c4f
+
+Time (s): cpu = 00:07:20 ; elapsed = 00:05:10 . Memory (MB): peak = 2652.289 ; gain = 15.168
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 14e6751c7
+
+Time (s): cpu = 00:10:07 ; elapsed = 00:07:01 . Memory (MB): peak = 2652.289 ; gain = 15.168
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1af7fa462
+
+Time (s): cpu = 00:10:11 ; elapsed = 00:07:04 . Memory (MB): peak = 2652.289 ; gain = 15.168
+
+Phase 3.4 updateClock Trees: DP
+Phase 3.4 updateClock Trees: DP | Checksum: 1af7fa462
+
+Time (s): cpu = 00:10:12 ; elapsed = 00:07:04 . Memory (MB): peak = 2652.289 ; gain = 15.168
+
+Phase 3.5 Timing Path Optimizer
+Phase 3.5 Timing Path Optimizer | Checksum: 10d02b487
+
+Time (s): cpu = 00:11:00 ; elapsed = 00:07:31 . Memory (MB): peak = 2652.289 ; gain = 15.168
+
+Phase 3.6 Fast Optimization
+Phase 3.6 Fast Optimization | Checksum: 10d02b487
+
+Time (s): cpu = 00:11:01 ; elapsed = 00:07:32 . Memory (MB): peak = 2652.289 ; gain = 15.168
+
+Phase 3.7 Small Shape Detail Placement
+
+Phase 3.7.1 Commit Small Macros and Core Logic
+
+Phase 3.7.1.1 Commit Slice Clusters
+Phase 3.7.1.1 Commit Slice Clusters | Checksum: 12c373820
+
+Time (s): cpu = 00:11:57 ; elapsed = 00:08:26 . Memory (MB): peak = 2652.289 ; gain = 15.168
+Phase 3.7.1 Commit Small Macros and Core Logic | Checksum: 12c373820
+
+Time (s): cpu = 00:11:59 ; elapsed = 00:08:27 . Memory (MB): peak = 2652.289 ; gain = 15.168
+
+Phase 3.7.2 Clock Restriction Legalization for Leaf Columns
+Phase 3.7.2 Clock Restriction Legalization for Leaf Columns | Checksum: 12c373820
+
+Time (s): cpu = 00:12:02 ; elapsed = 00:08:30 . Memory (MB): peak = 2652.289 ; gain = 15.168
+
+Phase 3.7.3 Clock Restriction Legalization for Non-Clock Pins
+Phase 3.7.3 Clock Restriction Legalization for Non-Clock Pins | Checksum: 12c373820
+
+Time (s): cpu = 00:12:04 ; elapsed = 00:08:31 . Memory (MB): peak = 2652.289 ; gain = 15.168
+Phase 3.7 Small Shape Detail Placement | Checksum: 12c373820
+
+Time (s): cpu = 00:12:05 ; elapsed = 00:08:32 . Memory (MB): peak = 2652.289 ; gain = 15.168
+
+Phase 3.8 Re-assign LUT pins
+Phase 3.8 Re-assign LUT pins | Checksum: 57cca66a
+
+Time (s): cpu = 00:12:11 ; elapsed = 00:08:39 . Memory (MB): peak = 2652.289 ; gain = 15.168
+Phase 3 Detail Placement | Checksum: 57cca66a
+
+Time (s): cpu = 00:12:12 ; elapsed = 00:08:40 . Memory (MB): peak = 2652.289 ; gain = 15.168
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+
+Phase 4.1.1 callUpdateTimingBeforePCO
+Phase 4.1.1 callUpdateTimingBeforePCO | Checksum: 39826368
+
+Time (s): cpu = 00:14:25 ; elapsed = 00:09:50 . Memory (MB): peak = 2652.289 ; gain = 15.168
+
+Phase 4.1.2 updateClock Trees: PCOPT
+Phase 4.1.2 updateClock Trees: PCOPT | Checksum: 39826368
+
+Time (s): cpu = 00:14:26 ; elapsed = 00:09:51 . Memory (MB): peak = 2652.289 ; gain = 15.168
+
+Phase 4.1.3 Post Placement Optimization
+
+Phase 4.1.3.1 PCOPT Shape updates
+
+Phase 4.1.3.1.1 removeOptionalFFsFromShapes
+Phase 4.1.3.1.1 removeOptionalFFsFromShapes | Checksum: 39826368
+
+Time (s): cpu = 00:14:27 ; elapsed = 00:09:52 . Memory (MB): peak = 2652.289 ; gain = 15.168
+
+Phase 4.1.3.1.2 deleteLutnmShapes
+
+Phase 4.1.3.1.2.1 deleteShapes
+Phase 4.1.3.1.2.1 deleteShapes | Checksum: 6bdfcebe
+
+Time (s): cpu = 00:14:29 ; elapsed = 00:09:53 . Memory (MB): peak = 2652.289 ; gain = 15.168
+Phase 4.1.3.1.2 deleteLutnmShapes | Checksum: 6bdfcebe
+
+Time (s): cpu = 00:14:30 ; elapsed = 00:09:54 . Memory (MB): peak = 2652.289 ; gain = 15.168
+Phase 4.1.3.1 PCOPT Shape updates | Checksum: 6bdfcebe
+
+Time (s): cpu = 00:14:31 ; elapsed = 00:09:56 . Memory (MB): peak = 2652.289 ; gain = 15.168
+
+Phase 4.1.3.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=6.447. For the most accurate timing information please run report_timing.
+Phase 4.1.3.2 Post Placement Timing Optimization | Checksum: 10f0f0415
+
+Time (s): cpu = 00:14:32 ; elapsed = 00:09:57 . Memory (MB): peak = 2652.289 ; gain = 15.168
+Phase 4.1.3 Post Placement Optimization | Checksum: 10f0f0415
+
+Time (s): cpu = 00:14:34 ; elapsed = 00:09:58 . Memory (MB): peak = 2652.289 ; gain = 15.168
+Phase 4.1 Post Commit Optimization | Checksum: 10f0f0415
+
+Time (s): cpu = 00:14:35 ; elapsed = 00:09:59 . Memory (MB): peak = 2652.289 ; gain = 15.168
+
+Phase 4.2 Sweep Clock Roots: Post-Placement
+Phase 4.2 Sweep Clock Roots: Post-Placement | Checksum: 10f0f0415
+
+Time (s): cpu = 00:14:36 ; elapsed = 00:10:01 . Memory (MB): peak = 2652.289 ; gain = 15.168
+
+Phase 4.3 Post Placement Cleanup
+Phase 4.3 Post Placement Cleanup | Checksum: 10f0f0415
+
+Time (s): cpu = 00:14:37 ; elapsed = 00:10:02 . Memory (MB): peak = 2652.289 ; gain = 15.168
+
+Phase 4.4 Placer Reporting
+
+Phase 4.4.1 Restore STA
+Phase 4.4.1 Restore STA | Checksum: 10f0f0415
+
+Time (s): cpu = 00:14:39 ; elapsed = 00:10:03 . Memory (MB): peak = 2652.289 ; gain = 15.168
+Phase 4.4 Placer Reporting | Checksum: 10f0f0415
+
+Time (s): cpu = 00:14:40 ; elapsed = 00:10:04 . Memory (MB): peak = 2652.289 ; gain = 15.168
+
+Phase 4.5 Final Placement Cleanup
+Phase 4.5 Final Placement Cleanup | Checksum: 15954242a
+
+Time (s): cpu = 00:14:41 ; elapsed = 00:10:06 . Memory (MB): peak = 2652.289 ; gain = 15.168
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 15954242a
+
+Time (s): cpu = 00:14:42 ; elapsed = 00:10:07 . Memory (MB): peak = 2652.289 ; gain = 15.168
+Ending Placer Task | Checksum: a7a27f4b
+
+Time (s): cpu = 00:14:42 ; elapsed = 00:10:07 . Memory (MB): peak = 2652.289 ; gain = 15.168
+INFO: [Common 17-83] Releasing license: Implementation
+57 Infos, 5 Warnings, 3 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:14:59 ; elapsed = 00:10:18 . Memory (MB): peak = 2652.289 ; gain = 15.168
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:49 ; elapsed = 00:00:18 . Memory (MB): peak = 2652.289 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:58 ; elapsed = 00:00:27 . Memory (MB): peak = 2652.289 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.125 . Memory (MB): peak = 2652.289 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2652.289 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.762 . Memory (MB): peak = 2652.289 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z045'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z045'
+INFO: [Common 17-1223] The version limit for your license is '2016.10' and will expire in -72 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC 23-20] Rule violation (PLIO-7) Placement Constraints Check for IO constraints - An IO Bus FIXED_IO_mio[53:0] with more than one IO standard is found. Components associated with this bus are: LVCMOS18 (FIXED_IO_mio[53], FIXED_IO_mio[52], FIXED_IO_mio[51], FIXED_IO_mio[50], FIXED_IO_mio[49], FIXED_IO_mio[48], FIXED_IO_mio[47], FIXED_IO_mio[46], FIXED_IO_mio[45], FIXED_IO_mio[44], FIXED_IO_mio[43], FIXED_IO_mio[42], FIXED_IO_mio[41], FIXED_IO_mio[40], FIXED_IO_mio[39] (the first 15 of 42 listed)); HSTL_I_18 (FIXED_IO_mio[27], FIXED_IO_mio[26], FIXED_IO_mio[25], FIXED_IO_mio[24], FIXED_IO_mio[23], FIXED_IO_mio[22], FIXED_IO_mio[21], FIXED_IO_mio[20], FIXED_IO_mio[19], FIXED_IO_mio[18], FIXED_IO_mio[17], FIXED_IO_mio[16]); 
+WARNING: [DRC 23-20] Rule violation (PLIO-7) Placement Constraints Check for IO constraints - An IO Bus red_led[3:0] with more than one IO standard is found. Components associated with this bus are: LVCMOS15 (red_led[3], red_led[2]); LVCMOS25 (red_led[1], red_led[0]); 
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 2 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 6b6c7cf ConstDB: 0 ShapeSum: a0ebb77c RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: cfa043ca
+
+Time (s): cpu = 00:02:30 ; elapsed = 00:01:48 . Memory (MB): peak = 2652.289 ; gain = 0.000
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: cfa043ca
+
+Time (s): cpu = 00:02:36 ; elapsed = 00:01:53 . Memory (MB): peak = 2652.289 ; gain = 0.000
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: cfa043ca
+
+Time (s): cpu = 00:02:36 ; elapsed = 00:01:54 . Memory (MB): peak = 2652.289 ; gain = 0.000
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 127ff5807
+
+Time (s): cpu = 00:04:31 ; elapsed = 00:03:04 . Memory (MB): peak = 2758.605 ; gain = 106.316
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=6.988  | TNS=0.000  | WHS=-0.405 | THS=-5307.951|
+
+Phase 2 Router Initialization | Checksum: 13ba73beb
+
+Time (s): cpu = 00:05:19 ; elapsed = 00:03:34 . Memory (MB): peak = 2965.824 ; gain = 313.535
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 1ed96cc75
+
+Time (s): cpu = 00:07:03 ; elapsed = 00:04:29 . Memory (MB): peak = 2965.824 ; gain = 313.535
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 18448
+ Number of Nodes with overlaps = 809
+ Number of Nodes with overlaps = 135
+ Number of Nodes with overlaps = 36
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 1bcc61d4e
+
+Time (s): cpu = 00:11:10 ; elapsed = 00:06:55 . Memory (MB): peak = 2991.465 ; gain = 339.176
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.825  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 1a8998e4e
+
+Time (s): cpu = 00:11:13 ; elapsed = 00:06:58 . Memory (MB): peak = 2991.465 ; gain = 339.176
+Phase 4 Rip-up And Reroute | Checksum: 1a8998e4e
+
+Time (s): cpu = 00:11:13 ; elapsed = 00:06:58 . Memory (MB): peak = 2991.465 ; gain = 339.176
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 1e0667485
+
+Time (s): cpu = 00:11:25 ; elapsed = 00:07:05 . Memory (MB): peak = 2991.465 ; gain = 339.176
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.825  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.1 Delay CleanUp | Checksum: 1e0667485
+
+Time (s): cpu = 00:11:26 ; elapsed = 00:07:06 . Memory (MB): peak = 2991.465 ; gain = 339.176
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 1e0667485
+
+Time (s): cpu = 00:11:26 ; elapsed = 00:07:06 . Memory (MB): peak = 2991.465 ; gain = 339.176
+Phase 5 Delay and Skew Optimization | Checksum: 1e0667485
+
+Time (s): cpu = 00:11:27 ; elapsed = 00:07:07 . Memory (MB): peak = 2991.465 ; gain = 339.176
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Update Timing
+Phase 6.1 Update Timing | Checksum: 19e9412cf
+
+Time (s): cpu = 00:11:42 ; elapsed = 00:07:17 . Memory (MB): peak = 2991.465 ; gain = 339.176
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.825  | TNS=0.000  | WHS=0.040  | THS=0.000  |
+
+Phase 6 Post Hold Fix | Checksum: 17daf3220
+
+Time (s): cpu = 00:11:43 ; elapsed = 00:07:17 . Memory (MB): peak = 2991.465 ; gain = 339.176
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 16.3524 %
+  Global Horizontal Routing Utilization  = 17.7911 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 17ec9fce8
+
+Time (s): cpu = 00:11:45 ; elapsed = 00:07:19 . Memory (MB): peak = 2991.465 ; gain = 339.176
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 17ec9fce8
+
+Time (s): cpu = 00:11:45 ; elapsed = 00:07:19 . Memory (MB): peak = 2991.465 ; gain = 339.176
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 1c0127241
+
+Time (s): cpu = 00:11:58 ; elapsed = 00:07:32 . Memory (MB): peak = 2991.465 ; gain = 339.176
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.825  | TNS=0.000  | WHS=0.040  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 1c0127241
+
+Time (s): cpu = 00:11:59 ; elapsed = 00:07:33 . Memory (MB): peak = 2991.465 ; gain = 339.176
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:11:59 ; elapsed = 00:07:33 . Memory (MB): peak = 2991.465 ; gain = 339.176
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+71 Infos, 7 Warnings, 3 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:12:13 ; elapsed = 00:07:41 . Memory (MB): peak = 2991.465 ; gain = 339.176
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:58 ; elapsed = 00:00:22 . Memory (MB): peak = 2991.465 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:01:04 ; elapsed = 00:00:28 . Memory (MB): peak = 2991.465 ; gain = 0.000
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file G:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.runs/impl_1/design_1_wrapper_drc_routed.rpt.
+report_drc: Time (s): cpu = 00:00:44 ; elapsed = 00:00:27 . Memory (MB): peak = 2991.465 ; gain = 0.000
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary: Time (s): cpu = 00:01:24 ; elapsed = 00:00:48 . Memory (MB): peak = 2991.465 ; gain = 0.000
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+report_power: Time (s): cpu = 00:00:52 ; elapsed = 00:00:35 . Memory (MB): peak = 2991.465 ; gain = 0.000
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z045'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z045'
+INFO: [Common 17-1223] The version limit for your license is '2016.10' and will expire in -72 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[0].fx2_significand_product_reg[0]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[0].fx2_significand_product_reg[0]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[0].fx2_significand_product_reg[0]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[0].fx2_significand_product_reg[0]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[0].fx2_significand_product_reg[0]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[0].fx2_significand_product_reg[0]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[10].fx2_significand_product_reg[10]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[10].fx2_significand_product_reg[10]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[10].fx2_significand_product_reg[10]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[10].fx2_significand_product_reg[10]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[10].fx2_significand_product_reg[10]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[10].fx2_significand_product_reg[10]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[11].fx2_significand_product_reg[11]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[11].fx2_significand_product_reg[11]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[11].fx2_significand_product_reg[11]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[11].fx2_significand_product_reg[11]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[11].fx2_significand_product_reg[11]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[11].fx2_significand_product_reg[11]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[12].fx2_significand_product_reg[12]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[12].fx2_significand_product_reg[12]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[12].fx2_significand_product_reg[12]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[12].fx2_significand_product_reg[12]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[12].fx2_significand_product_reg[12]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[12].fx2_significand_product_reg[12]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[13].fx2_significand_product_reg[13]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[13].fx2_significand_product_reg[13]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[13].fx2_significand_product_reg[13]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[13].fx2_significand_product_reg[13]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[13].fx2_significand_product_reg[13]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[13].fx2_significand_product_reg[13]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[14].fx2_significand_product_reg[14]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[14].fx2_significand_product_reg[14]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[14].fx2_significand_product_reg[14]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[14].fx2_significand_product_reg[14]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[14].fx2_significand_product_reg[14]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[14].fx2_significand_product_reg[14]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[15].fx2_significand_product_reg[15]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[15].fx2_significand_product_reg[15]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[15].fx2_significand_product_reg[15]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[15].fx2_significand_product_reg[15]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[15].fx2_significand_product_reg[15]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[15].fx2_significand_product_reg[15]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[1].fx2_significand_product_reg[1]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[1].fx2_significand_product_reg[1]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[1].fx2_significand_product_reg[1]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[1].fx2_significand_product_reg[1]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[1].fx2_significand_product_reg[1]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[1].fx2_significand_product_reg[1]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[2].fx2_significand_product_reg[2]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[2].fx2_significand_product_reg[2]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[2].fx2_significand_product_reg[2]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[2].fx2_significand_product_reg[2]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[2].fx2_significand_product_reg[2]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[2].fx2_significand_product_reg[2]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[3].fx2_significand_product_reg[3]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[3].fx2_significand_product_reg[3]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[3].fx2_significand_product_reg[3]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[3].fx2_significand_product_reg[3]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[3].fx2_significand_product_reg[3]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[3].fx2_significand_product_reg[3]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[4].fx2_significand_product_reg[4]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[4].fx2_significand_product_reg[4]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[4].fx2_significand_product_reg[4]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[4].fx2_significand_product_reg[4]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[4].fx2_significand_product_reg[4]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[4].fx2_significand_product_reg[4]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[5].fx2_significand_product_reg[5]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[5].fx2_significand_product_reg[5]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[5].fx2_significand_product_reg[5]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[5].fx2_significand_product_reg[5]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[5].fx2_significand_product_reg[5]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[5].fx2_significand_product_reg[5]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[6].fx2_significand_product_reg[6]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[6].fx2_significand_product_reg[6]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[6].fx2_significand_product_reg[6]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[6].fx2_significand_product_reg[6]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[6].fx2_significand_product_reg[6]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[6].fx2_significand_product_reg[6]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[7].fx2_significand_product_reg[7]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[7].fx2_significand_product_reg[7]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[7].fx2_significand_product_reg[7]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[7].fx2_significand_product_reg[7]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[7].fx2_significand_product_reg[7]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[7].fx2_significand_product_reg[7]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[8].fx2_significand_product_reg[8]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[8].fx2_significand_product_reg[8]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[8].fx2_significand_product_reg[8]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[8].fx2_significand_product_reg[8]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[8].fx2_significand_product_reg[8]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[8].fx2_significand_product_reg[8]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[9].fx2_significand_product_reg[9]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[9].fx2_significand_product_reg[9]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[9].fx2_significand_product_reg[9]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[9].fx2_significand_product_reg[9]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[9].fx2_significand_product_reg[9]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[9].fx2_significand_product_reg[9]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__1 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__1/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__11 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__11/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__13 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__13/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__15 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__15/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__17 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__17/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__19 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__19/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__21 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__21/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__23 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__23/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__25 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__25/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__27 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__27/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__29 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__29/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__3 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__3/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__5 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__5/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__7 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__7/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__9 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__9/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__0 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__1 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__10 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__10/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__11 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__11/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__12 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__12/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__13 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__13/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__14 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__14/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__15 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__15/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__16 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__16/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__17 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__17/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__18 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__18/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__19 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__19/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__2 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__20 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__20/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__21 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__21/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__22 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__22/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__23 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__23/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__24 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__24/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__25 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__25/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__26 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__26/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__27 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__27/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__28 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__28/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__29 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__29/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__3 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__30 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__30/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__4 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__4/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__5 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__5/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__6 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__6/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__7 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__7/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__8 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__8/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__9 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__9/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-2) MREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[0].fx2_significand_product_reg[0]__0 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[0].fx2_significand_product_reg[0]__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC 23-20] Rule violation (DPOP-2) MREG Output pipelining - DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[0].fx2_significand_product_reg[0]__2 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[0].fx2_significand_product_reg[0]__2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+INFO: [Common 17-14] Message 'DRC 23-20' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 162 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./design_1_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Common 17-83] Releasing license: Implementation
+write_bitstream: Time (s): cpu = 00:03:01 ; elapsed = 00:02:50 . Memory (MB): peak = 3570.707 ; gain = 579.242
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 11 22:06:57 2017...

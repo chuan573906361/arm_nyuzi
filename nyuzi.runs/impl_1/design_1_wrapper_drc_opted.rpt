@@ -1,0 +1,845 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Wed Jan 11 21:43:13 2017
+| Host         : DESKTOP-82FHF1S running 64-bit major release  (build 9200)
+| Command      : report_drc
+------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 163
+
+2. REPORT DETAILS
+-----------------
+DPIP-1#1 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[0].fx2_significand_product_reg[0]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[0].fx2_significand_product_reg[0]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#2 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[0].fx2_significand_product_reg[0]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[0].fx2_significand_product_reg[0]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#3 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[0].fx2_significand_product_reg[0]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[0].fx2_significand_product_reg[0]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#4 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[10].fx2_significand_product_reg[10]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[10].fx2_significand_product_reg[10]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#5 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[10].fx2_significand_product_reg[10]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[10].fx2_significand_product_reg[10]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#6 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[10].fx2_significand_product_reg[10]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[10].fx2_significand_product_reg[10]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#7 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[11].fx2_significand_product_reg[11]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[11].fx2_significand_product_reg[11]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#8 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[11].fx2_significand_product_reg[11]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[11].fx2_significand_product_reg[11]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#9 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[11].fx2_significand_product_reg[11]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[11].fx2_significand_product_reg[11]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#10 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[12].fx2_significand_product_reg[12]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[12].fx2_significand_product_reg[12]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#11 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[12].fx2_significand_product_reg[12]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[12].fx2_significand_product_reg[12]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#12 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[12].fx2_significand_product_reg[12]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[12].fx2_significand_product_reg[12]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#13 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[13].fx2_significand_product_reg[13]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[13].fx2_significand_product_reg[13]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#14 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[13].fx2_significand_product_reg[13]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[13].fx2_significand_product_reg[13]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#15 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[13].fx2_significand_product_reg[13]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[13].fx2_significand_product_reg[13]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#16 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[14].fx2_significand_product_reg[14]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[14].fx2_significand_product_reg[14]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#17 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[14].fx2_significand_product_reg[14]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[14].fx2_significand_product_reg[14]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#18 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[14].fx2_significand_product_reg[14]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[14].fx2_significand_product_reg[14]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#19 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[15].fx2_significand_product_reg[15]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[15].fx2_significand_product_reg[15]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#20 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[15].fx2_significand_product_reg[15]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[15].fx2_significand_product_reg[15]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#21 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[15].fx2_significand_product_reg[15]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[15].fx2_significand_product_reg[15]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#22 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[1].fx2_significand_product_reg[1]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[1].fx2_significand_product_reg[1]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#23 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[1].fx2_significand_product_reg[1]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[1].fx2_significand_product_reg[1]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#24 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[1].fx2_significand_product_reg[1]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[1].fx2_significand_product_reg[1]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#25 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[2].fx2_significand_product_reg[2]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[2].fx2_significand_product_reg[2]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#26 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[2].fx2_significand_product_reg[2]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[2].fx2_significand_product_reg[2]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#27 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[2].fx2_significand_product_reg[2]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[2].fx2_significand_product_reg[2]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#28 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[3].fx2_significand_product_reg[3]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[3].fx2_significand_product_reg[3]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#29 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[3].fx2_significand_product_reg[3]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[3].fx2_significand_product_reg[3]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#30 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[3].fx2_significand_product_reg[3]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[3].fx2_significand_product_reg[3]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#31 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[4].fx2_significand_product_reg[4]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[4].fx2_significand_product_reg[4]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#32 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[4].fx2_significand_product_reg[4]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[4].fx2_significand_product_reg[4]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#33 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[4].fx2_significand_product_reg[4]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[4].fx2_significand_product_reg[4]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#34 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[5].fx2_significand_product_reg[5]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[5].fx2_significand_product_reg[5]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#35 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[5].fx2_significand_product_reg[5]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[5].fx2_significand_product_reg[5]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#36 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[5].fx2_significand_product_reg[5]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[5].fx2_significand_product_reg[5]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#37 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[6].fx2_significand_product_reg[6]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[6].fx2_significand_product_reg[6]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#38 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[6].fx2_significand_product_reg[6]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[6].fx2_significand_product_reg[6]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#39 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[6].fx2_significand_product_reg[6]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[6].fx2_significand_product_reg[6]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#40 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[7].fx2_significand_product_reg[7]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[7].fx2_significand_product_reg[7]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#41 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[7].fx2_significand_product_reg[7]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[7].fx2_significand_product_reg[7]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#42 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[7].fx2_significand_product_reg[7]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[7].fx2_significand_product_reg[7]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#43 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[8].fx2_significand_product_reg[8]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[8].fx2_significand_product_reg[8]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#44 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[8].fx2_significand_product_reg[8]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[8].fx2_significand_product_reg[8]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#45 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[8].fx2_significand_product_reg[8]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[8].fx2_significand_product_reg[8]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#46 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[9].fx2_significand_product_reg[9]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[9].fx2_significand_product_reg[9]__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#47 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[9].fx2_significand_product_reg[9]__0 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[9].fx2_significand_product_reg[9]__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#48 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[9].fx2_significand_product_reg[9]__2 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[9].fx2_significand_product_reg[9]__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#49 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#50 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__1 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__1/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#51 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__11 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__11/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#52 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__13 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__13/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#53 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__15 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__15/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#54 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__17 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__17/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#55 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__19 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__19/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#56 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__21 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__21/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#57 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__23 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__23/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#58 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__25 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__25/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#59 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__27 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__27/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#60 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__29 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__29/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#61 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__3 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__3/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#62 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__5 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__5/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#63 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__7 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__7/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#64 Warning
+Input pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__9 input design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__9/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-1#1 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#2 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__0 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#3 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__1 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#4 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__10 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__10/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#5 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__11 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__11/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#6 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__12 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__12/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#7 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__13 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__13/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#8 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__14 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__14/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#9 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__15 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__15/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#10 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__16 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__16/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#11 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__17 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__17/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#12 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__18 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__18/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#13 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__19 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__19/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#14 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__2 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#15 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__20 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__20/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#16 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__21 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__21/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#17 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__22 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__22/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#18 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__23 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__23/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#19 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__24 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__24/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#20 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__25 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__25/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#21 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__26 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__26/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#22 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__27 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__27/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#23 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__28 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__28/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#24 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__29 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__29/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#25 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__3 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#26 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__30 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__30/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#27 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__4 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__4/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#28 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__5 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__5/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#29 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__6 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__6/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#30 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__7 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__7/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#31 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__8 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__8/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#32 Warning
+PREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__9 output design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__9/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-2#1 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[0].fx2_significand_product_reg[0]__0 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[0].fx2_significand_product_reg[0]__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#2 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[0].fx2_significand_product_reg[0]__2 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[0].fx2_significand_product_reg[0]__2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#3 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[10].fx2_significand_product_reg[10]__0 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[10].fx2_significand_product_reg[10]__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#4 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[10].fx2_significand_product_reg[10]__2 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[10].fx2_significand_product_reg[10]__2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#5 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[11].fx2_significand_product_reg[11]__0 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[11].fx2_significand_product_reg[11]__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#6 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[11].fx2_significand_product_reg[11]__2 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[11].fx2_significand_product_reg[11]__2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#7 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[12].fx2_significand_product_reg[12]__0 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[12].fx2_significand_product_reg[12]__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#8 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[12].fx2_significand_product_reg[12]__2 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[12].fx2_significand_product_reg[12]__2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#9 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[13].fx2_significand_product_reg[13]__0 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[13].fx2_significand_product_reg[13]__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#10 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[13].fx2_significand_product_reg[13]__2 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[13].fx2_significand_product_reg[13]__2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#11 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[14].fx2_significand_product_reg[14]__0 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[14].fx2_significand_product_reg[14]__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#12 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[14].fx2_significand_product_reg[14]__2 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[14].fx2_significand_product_reg[14]__2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#13 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[15].fx2_significand_product_reg[15]__0 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[15].fx2_significand_product_reg[15]__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#14 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[15].fx2_significand_product_reg[15]__2 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[15].fx2_significand_product_reg[15]__2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#15 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[1].fx2_significand_product_reg[1]__0 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[1].fx2_significand_product_reg[1]__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#16 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[1].fx2_significand_product_reg[1]__2 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[1].fx2_significand_product_reg[1]__2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#17 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[2].fx2_significand_product_reg[2]__0 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[2].fx2_significand_product_reg[2]__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#18 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[2].fx2_significand_product_reg[2]__2 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[2].fx2_significand_product_reg[2]__2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#19 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[3].fx2_significand_product_reg[3]__0 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[3].fx2_significand_product_reg[3]__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#20 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[3].fx2_significand_product_reg[3]__2 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[3].fx2_significand_product_reg[3]__2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#21 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[4].fx2_significand_product_reg[4]__0 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[4].fx2_significand_product_reg[4]__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#22 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[4].fx2_significand_product_reg[4]__2 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[4].fx2_significand_product_reg[4]__2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#23 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[5].fx2_significand_product_reg[5]__0 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[5].fx2_significand_product_reg[5]__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#24 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[5].fx2_significand_product_reg[5]__2 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[5].fx2_significand_product_reg[5]__2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#25 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[6].fx2_significand_product_reg[6]__0 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[6].fx2_significand_product_reg[6]__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#26 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[6].fx2_significand_product_reg[6]__2 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[6].fx2_significand_product_reg[6]__2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#27 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[7].fx2_significand_product_reg[7]__0 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[7].fx2_significand_product_reg[7]__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#28 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[7].fx2_significand_product_reg[7]__2 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[7].fx2_significand_product_reg[7]__2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#29 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[8].fx2_significand_product_reg[8]__0 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[8].fx2_significand_product_reg[8]__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#30 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[8].fx2_significand_product_reg[8]__2 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[8].fx2_significand_product_reg[8]__2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#31 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[9].fx2_significand_product_reg[9]__0 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[9].fx2_significand_product_reg[9]__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#32 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[9].fx2_significand_product_reg[9]__2 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/lane_logic_gen[9].fx2_significand_product_reg[9]__2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#33 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#34 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__0 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#35 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__1 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#36 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__10 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__10/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#37 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__11 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__11/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#38 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__12 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__12/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#39 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__13 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__13/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#40 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__14 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__14/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#41 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__15 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__15/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#42 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__16 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__16/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#43 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__17 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__17/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#44 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__18 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__18/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#45 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__19 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__19/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#46 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__2 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#47 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__20 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__20/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#48 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__21 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__21/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#49 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__22 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__22/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#50 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__23 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__23/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#51 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__24 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__24/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#52 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__25 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__25/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#53 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__26 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__26/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#54 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__27 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__27/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#55 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__28 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__28/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#56 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__29 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__29/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#57 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__3 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#58 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__30 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__30/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#59 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__4 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__4/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#60 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__5 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__5/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#61 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__6 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__6/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#62 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__7 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__7/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#63 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__8 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__8/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#64 Warning
+MREG Output pipelining  
+DSP design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__9 multiplier stage design_1_i/zc706_top_0/inst/nyuzi/core_gen[0].core/fp_execute_stage2/p_0_out__9/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+PLIO-7#1 Warning
+Placement Constraints Check for IO constraints  
+An IO Bus FIXED_IO_mio[53:0] with more than one IO standard is found. Components associated with this bus are: LVCMOS18 (FIXED_IO_mio[53], FIXED_IO_mio[52], FIXED_IO_mio[51], FIXED_IO_mio[50], FIXED_IO_mio[49], FIXED_IO_mio[48], FIXED_IO_mio[47], FIXED_IO_mio[46], FIXED_IO_mio[45], FIXED_IO_mio[44], FIXED_IO_mio[43], FIXED_IO_mio[42], FIXED_IO_mio[41], FIXED_IO_mio[40], FIXED_IO_mio[39] (the first 15 of 42 listed)); HSTL_I_18 (FIXED_IO_mio[27], FIXED_IO_mio[26], FIXED_IO_mio[25], FIXED_IO_mio[24], FIXED_IO_mio[23], FIXED_IO_mio[22], FIXED_IO_mio[21], FIXED_IO_mio[20], FIXED_IO_mio[19], FIXED_IO_mio[18], FIXED_IO_mio[17], FIXED_IO_mio[16]); 
+Related violations: <none>
+
+PLIO-7#2 Warning
+Placement Constraints Check for IO constraints  
+An IO Bus red_led[3:0] with more than one IO standard is found. Components associated with this bus are: LVCMOS15 (red_led[3], red_led[2]); LVCMOS25 (red_led[1], red_led[0]); 
+Related violations: <none>
+
+XDCB-1#1 Warning
+Runtime intensive exceptions  
+The following constraint contains more than 1000 objects. To preserve runtime and memory performance, it is recommended to include minimum number of objects. Check whether this list can be simplified.
+-from = 1096
+set_false_path -from [get_pins -hierarchical -filter {NAME =~ *allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/DUT/I_WHOLE_SLICE.G_SLICE_IDX[*...
+g:/xilinx_project/zynq_nyuzi_0111/nyuzi/nyuzi.runs/impl_1/.Xil/Vivado-5200-/u_ila_0_0_CV.0/out/ila.xdc (Line: 32)
+Related violations: <none>
+
+
