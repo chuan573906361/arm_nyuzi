@@ -2,4 +2,4 @@ This is a project with axi connecting between arm and a gpgpu core called nyuzi 
 nyuzi core github:https://github.com/jbush001/NyuziProcessor
 
 block design:
-(http://github.com/chuan573906361/arm-nyuzi/raw/master/picture/blockDesign.jpg)
+(http://github.com/chuan573906361/arm_nyuzi/tree/master/picture/blockDesign.jpg)
